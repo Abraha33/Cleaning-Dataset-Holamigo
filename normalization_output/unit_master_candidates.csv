@@ -1,0 +1,629 @@
+﻿unit_candidate_id,raw_presentation,source,parsed_quantity,parsed_unit_token,suggested_unity_id,factor_to_base,status,notas
+UC00001,Onzas,unities_json,,oz,U01,,aprobado,Registro maestro unities.json.
+UC00002,Mililitros,unities_json,,ml,U02,,aprobado,Registro maestro unities.json.
+UC00003,Litros,unities_json,,L,U03,,aprobado,Registro maestro unities.json.
+UC00004,Centímetros Cúbicos,unities_json,,cc,U04,,aprobado,Registro maestro unities.json.
+UC00005,Centímetros,unities_json,,cm,U05,,aprobado,Registro maestro unities.json.
+UC00006,Milímetros,unities_json,,mm,U06,,aprobado,Registro maestro unities.json.
+UC00007,Pulgadas,unities_json,,in,U07,,aprobado,Registro maestro unities.json.
+UC00008,Gramos,unities_json,,g,U08,,aprobado,Registro maestro unities.json.
+UC00009,Kilogramos,unities_json,,kg,U09,,aprobado,Registro maestro unities.json.
+UC00010,Libras,unities_json,,lb,U10,,aprobado,Registro maestro unities.json.
+UC00011,A partir 10 pares,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00012,A partir 12 sobre x 9 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00013,A partir de  10 pares,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00014,A partir de 10,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00015,A partir de 10  Bultos x 200 und,ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00016,A partir de 10 Bultos,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00017,A partir de 10 Millares,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00018,A partir de 10 Paq de 500 uds.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00019,A partir de 10 Paq de kilo,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00020,A partir de 10 Paq x 10 uds.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00021,A partir de 10 Paq x 100 uds. aprox.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00022,A partir de 10 Paq x 200 uds aprox.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00023,A partir de 10 Rollos,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00024,A partir de 10 Unidades,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00025,A partir de 10 de 100 uds,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00026,A partir de 10 paq,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00027,A partir de 10 sobre x 9 g,ecoplast_variant,10,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00028,A partir de 100,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00029,A partir de 11,ecoplast_variant,11,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00030,A partir de 12,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00031,A partir de 120,ecoplast_variant,120,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00032,A partir de 13,ecoplast_variant,13,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00033,A partir de 14,ecoplast_variant,14,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00034,A partir de 15,ecoplast_variant,15,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00035,A partir de 15 paq,ecoplast_variant,15,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00036,A partir de 150,ecoplast_variant,150,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00037,A partir de 16,ecoplast_variant,16,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00038,A partir de 18,ecoplast_variant,18,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00039,A partir de 180,ecoplast_variant,180,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00040,A partir de 2,ecoplast_variant,2,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00041,A partir de 2 Paq,ecoplast_variant,2,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00042,A partir de 20,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00043,A partir de 20 paq,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00044,A partir de 20 und,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00045,A partir de 20 unidades,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00046,A partir de 22,ecoplast_variant,22,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00047,A partir de 24,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00048,A partir de 240,ecoplast_variant,240,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00049,A partir de 25,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00050,A partir de 250,ecoplast_variant,250,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00051,A partir de 250 und,ecoplast_variant,250,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00052,A partir de 28,ecoplast_variant,28,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00053,A partir de 3,ecoplast_variant,3,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00054,A partir de 30,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00055,A partir de 35,ecoplast_variant,35,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00056,A partir de 36,ecoplast_variant,36,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00057,A partir de 36 Und (es),ecoplast_variant,36,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00058,A partir de 4,ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00059,A partir de 40,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00060,A partir de 400,ecoplast_variant,400,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00061,A partir de 45,ecoplast_variant,45,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00062,A partir de 48 Und (es),ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00063,A partir de 49,ecoplast_variant,49,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00064,A partir de 5,ecoplast_variant,5,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00065,A partir de 5 Bultos x 4 rollos,ecoplast_variant,5,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00066,A partir de 5 Millares,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00067,A partir de 5 paq,ecoplast_variant,5,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00068,A partir de 50,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00069,A partir de 50 unidades,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00070,A partir de 500,ecoplast_variant,500,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00071,A partir de 6,ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00072,A partir de 60,ecoplast_variant,60,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00073,A partir de 7,ecoplast_variant,7,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00074,A partir de 70,ecoplast_variant,70,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00075,A partir de 72,ecoplast_variant,72,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00076,A partir de 75,ecoplast_variant,75,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00077,A partir de 8,ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00078,A partir de 84,ecoplast_variant,84,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00079,A partir de 9,ecoplast_variant,9,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00080,A partir de 96,ecoplast_variant,96,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00081,A partir de12,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00082,A partir x 12 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00083,A partir x 18 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00084,Barra x 125 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00085,Bolsa de 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00086,Bolsa de 180 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00087,Bolsa de 2500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00088,Bolsa de 400 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00089,Bolsa de 454 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00090,Bolsa de 460 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00091,Bolsa de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00092,Bolsa de 55 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00093,Bolsa de 9 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00094,Bolsa x 1.5 kl,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00095,Bolsa x 10 gr,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00096,Bolsa x 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00097,Bolsa x 1000 ml,ecoplast_variant,,,U02,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00098,Bolsa x 20 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00099,Bolsa x 37 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00100,Bolsa x 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00101,Bolsa x 55 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00102,Bolsa x 60 gr,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00103,Bolsa x 70 gr,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00104,Botella 1000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00105,Botella 2000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00106,Botella 3000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00107,Botella 500 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00108,Botella 5000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00109,Botella 900 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00110,Bulto x  24 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00111,Bulto x  4 paq de  3 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00112,Bulto x 10 Paq de 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00113,Bulto x 10 paq de 20 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00114,Bulto x 10 paq x 50 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00115,Bulto x 10 resma de 20 cuadernillo,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00116,Bulto x 100 paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00117,Bulto x 100 paq x 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00118,Bulto x 12 Paq de 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00119,Bulto x 12 Rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00120,Bulto x 12 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00121,Bulto x 15 Paq x 2 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00122,Bulto x 16 Paq x 250 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00123,Bulto x 18 Paq x 200 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00124,Bulto x 2 paq de 3 und,ecoplast_variant,3,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00125,Bulto x 2 paq x 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00126,Bulto x 20 paq  x 500 und,ecoplast_variant,500,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00127,Bulto x 20 paq de 10 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00128,Bulto x 20 paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00129,Bulto x 20 paq de 500 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00130,Bulto x 20 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00131,Bulto x 200 und,ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00132,Bulto x 200 und (es),ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00133,Bulto x 24 Rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00134,Bulto x 24 paq de 20 ud.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00135,Bulto x 24 paq de 20 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00136,Bulto x 24 paq x 20 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00137,Bulto x 24 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00138,Bulto x 250 und,ecoplast_variant,250,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00139,Bulto x 28 Paq x 200 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00140,Bulto x 3 paq de 2 und,ecoplast_variant,2,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00141,Bulto x 30 paq,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00142,Bulto x 30 paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00143,Bulto x 30 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00144,Bulto x 4 Paq de 12 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00145,Bulto x 4 Paq x 12 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00146,Bulto x 4 paq de 24  rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00147,Bulto x 4 paq x 2 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00148,Bulto x 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00149,Bulto x 40 paq de 10 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00150,Bulto x 40 paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00151,Bulto x 40 paq de 200 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00152,Bulto x 48 Rollo (s),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00153,Bulto x 48 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00154,Bulto x 48 rollos XXG,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00155,Bulto x 50 paq de 100 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00156,Bulto x 50 paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00157,Bulto x 50 paq de 150 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00158,Bulto x 50 paq x 200 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00159,Bulto x 50 paq x 400 unidades,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00160,Bulto x 500 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00161,Bulto x 500 und (es),ecoplast_variant,500,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00162,Bulto x 6 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00163,Bulto x 60 paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00164,Bulto x 8 Paq x 25 und(es),ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00165,Bulto x 8 Paq x 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00166,Bulto x 8 paq de 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00167,Bulto x 80 paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00168,Bultos x 40 paq,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00169,Caja de 12 Botella 1000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00170,Caja de 12 Botella 900 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00171,Caja de 12 Botella x 900 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00172,Caja de 24 Botella 500 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00173,Caja de 4 Botella 5000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00174,Caja de 6 Botella 3000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00175,Caja de 8 Botella 2000 cc,ecoplast_variant,,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00176,Caja x  6 paq x 50 und,ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00177,Caja x 10 Und (es),ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00178,Caja x 10 display de 6 pares,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00179,Caja x 10 display x 100 und,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00180,Caja x 10 display x 50 und,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00181,Caja x 10 paq  de 100 uds.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00182,Caja x 10 paq de 100 uds.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00183,Caja x 10 paq de 1000 uds,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00184,Caja x 10 paq x 100 uds.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00185,Caja x 10 paq x 20 und,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00186,Caja x 10 paq x 50 uds.,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00187,Caja x 100 Unidades,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00188,Caja x 100 paq X 50 uds,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00189,Caja x 100 paq de 100 uds.,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00190,Caja x 100 paq de 20 uds.,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00191,Caja x 100 paq de 50 uds.,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00192,Caja x 100 paq de 50 und,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00193,Caja x 100 und,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00194,Caja x 100 und (es),ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00195,Caja x 1000 und (es),ecoplast_variant,1000,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00196,Caja x 12,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00197,Caja x 12 Bolsa x 1000 ml,ecoplast_variant,12,,U02,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00198,Caja x 12 Display de 10 pares,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00199,Caja x 12 Display de 20 sobres,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00200,Caja x 12 Display x 100 sobres,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00201,Caja x 12 Duo pack,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00202,Caja x 12 Paq de 150 und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00203,Caja x 12 Paq x 6 und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00204,Caja x 12 Paquete x 80 Unid (es),ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00205,Caja x 12 Und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00206,Caja x 12 Und (es),ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00207,Caja x 12 paq,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00208,Caja x 12 paq de 1000 uds,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00209,Caja x 12 paq de 1000 uds.,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00210,Caja x 12 paq de 25 uds.,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00211,Caja x 12 paq de 50 uds.,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00212,Caja x 12 paq x 20 uds.,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00213,Caja x 12 paq x 20 und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00214,Caja x 12 rollos,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00215,Caja x 12 unidades,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00216,Caja x 120 Paq de 25 uds.,ecoplast_variant,120,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00217,Caja x 120 Und (es),ecoplast_variant,120,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00218,Caja x 120 paq de 100 uds,ecoplast_variant,120,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00219,Caja x 120 paq de 50 uds.,ecoplast_variant,120,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00220,Caja x 120 pares,ecoplast_variant,120,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00221,Caja x 140 paq de 50 uds.,ecoplast_variant,140,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00222,Caja x 144 Und (es),ecoplast_variant,144,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00223,Caja x 144 cajitas x 180 Und (es),ecoplast_variant,144,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00224,Caja x 15 paq de 300 uds.,ecoplast_variant,15,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00225,Caja x 15 paq de 320 uds.,ecoplast_variant,15,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00226,Caja x 15 paq x 600 uds.,ecoplast_variant,15,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00227,Caja x 15 rollos,ecoplast_variant,15,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00228,Caja x 150 paq x 20 und,ecoplast_variant,150,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00229,Caja x 150 und (es),ecoplast_variant,150,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00230,Caja x 16 Cajitas de 3 und,ecoplast_variant,16,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00231,Caja x 16 Und (es),ecoplast_variant,16,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00232,Caja x 16 paq x 12 uds.,ecoplast_variant,16,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00233,Caja x 16 rollos,ecoplast_variant,16,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00234,Caja x 168 paq de 50 uds.,ecoplast_variant,168,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00235,Caja x 18 Bolsa de 454 g,ecoplast_variant,18,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00236,Caja x 18 Und (es),ecoplast_variant,18,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00237,Caja x 18 paq de 300 uds.,ecoplast_variant,18,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00238,Caja x 18 rollos,ecoplast_variant,18,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00239,Caja x 192 paq de 50 uds.,ecoplast_variant,192,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00240,Caja x 20  paq de  50 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00241,Caja x 20 Cajitas x 300 g,ecoplast_variant,20,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00242,Caja x 20 Paq de 50 uds,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00243,Caja x 20 Paq x 50 unidades,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00244,Caja x 20 Paq x 80 Unid (es),ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00245,Caja x 20 paq  de 100 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00246,Caja x 20 paq de 12 uds,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00247,Caja x 20 paq de 20 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00248,Caja x 20 paq de 25 uds,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00249,Caja x 20 paq de 25 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00250,Caja x 20 paq de 40 uds,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00251,Caja x 20 paq de 50 uds,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00252,Caja x 20 paq de 50 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00253,Caja x 20 paq x 25 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00254,Caja x 20 paq x 50 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00255,Caja x 20 paq x 50 und,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00256,Caja x 20 paq. de 100 uds.,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00257,Caja x 200 cajitas x 125 und,ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00258,Caja x 200 uds,ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00259,Caja x 200 und,ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00260,Caja x 200 und (es),ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00261,Caja x 22 paq de 50 uds.,ecoplast_variant,22,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00262,Caja x 24,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00263,Caja x 24 Display de 20 sobres,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00264,Caja x 24 Display de 25 sobres,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00265,Caja x 24 Display x 10 Und (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00266,Caja x 24 Display x 18 duos,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00267,Caja x 24 Display x 18 und,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00268,Caja x 24 Display x 20  Und (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00269,Caja x 24 Display x 20 Und (es,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00270,Caja x 24 Display x 4 und,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00271,Caja x 24 Duo pack,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00272,Caja x 24 Paq de 1000 und,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00273,Caja x 24 Paq x 100 und (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00274,Caja x 24 Paq x 20 uds.,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00275,Caja x 24 Taco de 4,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00276,Caja x 24 Und (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00277,Caja x 24 Und (es) x 250 g,ecoplast_variant,24,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00278,Caja x 24 Unid (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00279,Caja x 24 paq de 50 uds.,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00280,Caja x 24 paq x 150 uds.,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00281,Caja x 24 spray,ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00282,Caja x 24 und (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00283,Caja x 240 paq de 50 uds,ecoplast_variant,240,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00284,Caja x 25 Paq x 40 und,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00285,Caja x 25 Und (es),ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00286,Caja x 25 paq de 100 uds.,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00287,Caja x 25 paq de 12 uds.,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00288,Caja x 25 paq de 20 uds,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00289,Caja x 25 paq de 20 uds.,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00290,Caja x 25 paq de 40 uds,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00291,Caja x 25 paq de 50 uds,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00292,Caja x 25 paq x 100 uds.,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00293,Caja x 25 paq x 12 und,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00294,Caja x 25 paq x 20 und,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00295,Caja x 25 paq x 200 uds,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00296,Caja x 25 paq x 40 uds.,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00297,Caja x 288 Und (es),ecoplast_variant,288,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00298,Caja x 30 Display x 36 sobre x 9 g,ecoplast_variant,30,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00299,Caja x 30 Paq de 100 uds.,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00300,Caja x 30 Ristras x 36 sobre x 9 g,ecoplast_variant,30,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00301,Caja x 30 Und (es),ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00302,Caja x 30 display x 20 und,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00303,Caja x 30 paq de 100 uds.,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00304,Caja x 30 paq de 20 uds.,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00305,Caja x 30 paq de 200 uds.,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00306,Caja x 30 paq de 500 uds.,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00307,Caja x 30 paq guantes de 1 par,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00308,Caja x 30 rollos,ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00309,Caja x 300 gr,ecoplast_variant,300,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00310,Caja x 300 tarritos x 250 Und( es),ecoplast_variant,300,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00311,Caja x 300 und (es),ecoplast_variant,300,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00312,Caja x 31 paq de 50 uds.,ecoplast_variant,31,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00313,Caja x 32  rollos,ecoplast_variant,32,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00314,Caja x 32 paq de 150 uds.,ecoplast_variant,32,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00315,Caja x 36 Und (es),ecoplast_variant,36,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00316,Caja x 36 paq de 150 uds.,ecoplast_variant,36,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00317,Caja x 36 paq de 50 und,ecoplast_variant,36,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00318,Caja x 36 rollos,ecoplast_variant,36,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00319,Caja x 360 paq guantes de 1 par,ecoplast_variant,360,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00320,Caja x 4 Paq de 3000 g,ecoplast_variant,4,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00321,Caja x 4 Und (es),ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00322,Caja x 4 display de 12 pares,ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00323,Caja x 4 paq x 250 und,ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00324,Caja x 4 paq x 50 und,ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00325,Caja x 4 rollos,ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00326,Caja x 40 Cajita x 50 uds,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00327,Caja x 40 Display x 50 und,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00328,Caja x 40 Paq de 25 uds.,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00329,Caja x 40 Paq de 50 uds.,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00330,Caja x 40 Paq x 50 und,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00331,Caja x 40 Paq x 50 unidades,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00332,Caja x 40 Rollos,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00333,Caja x 40 Und (es),ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00334,Caja x 40 paq de 25 uds.,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00335,Caja x 40 paq de 250 uds.,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00336,Caja x 40 paq de 50 uds,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00337,Caja x 40 paq de 50 uds.,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00338,Caja x 40 paq de 500 uds.,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00339,Caja x 40 paq x 50 unidades,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00340,Caja x 40 rollos,ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00341,Caja x 44 paq de 25 uds.,ecoplast_variant,44,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00342,Caja x 45 paq x 100 uds,ecoplast_variant,45,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00343,Caja x 48 Paq x 20 uds,ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00344,Caja x 48 Und (es),ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00345,Caja x 48 cajitas x 50 sobres,ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00346,Caja x 48 paq de 25 uds.,ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00347,Caja x 48 paq de 3 uds,ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00348,Caja x 48 paq x 20 uds.,ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00349,Caja x 48 sobres de 100 g,ecoplast_variant,48,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00350,Caja x 480 Und (es),ecoplast_variant,480,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00351,Caja x 480 und,ecoplast_variant,480,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00352,Caja x 5 ofertas,ecoplast_variant,5,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00353,Caja x 50 Display x 12 und (es),ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00354,Caja x 50 Paq de 50 uds.,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00355,Caja x 50 Paq x 10 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00356,Caja x 50 Paq x 100 uds,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00357,Caja x 50 Paq x 100 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00358,Caja x 50 Und (es),ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00359,Caja x 50 paq X 50 uds,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00360,Caja x 50 paq de 100 uds,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00361,Caja x 50 paq de 100 uds.,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00362,Caja x 50 paq de 20 uds.,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00363,Caja x 50 paq de 50 uds.,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00364,Caja x 50 paq x 10 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00365,Caja x 50 paq x 100 unidades,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00366,Caja x 50 paq x 24 uds.,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00367,Caja x 50 und (es),ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00368,Caja x 500 uds,ecoplast_variant,500,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00369,Caja x 500 und (es),ecoplast_variant,500,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00370,Caja x 54 Bolsa de 180 g,ecoplast_variant,54,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00371,Caja x 54 Und (es),ecoplast_variant,54,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00372,Caja x 56 paq de 50 uds.,ecoplast_variant,56,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00373,Caja x 6 Botella x 3000 cc,ecoplast_variant,6,,U04,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00374,Caja x 6 Display x 6 und,ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00375,Caja x 6 Und (es),ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00376,Caja x 6 paq de 50 uds,ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00377,Caja x 6 paq x 25 und,ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00378,Caja x 6 rollos,ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00379,Caja x 60 Paq de 50 uds.,ecoplast_variant,60,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00380,Caja x 60 Und (es),ecoplast_variant,60,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00381,Caja x 60 cajitas x 24 sobres,ecoplast_variant,60,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00382,Caja x 60 paq de 50 uds.,ecoplast_variant,60,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00383,Caja x 600 und,ecoplast_variant,600,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00384,Caja x 600 und (es),ecoplast_variant,600,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00385,Caja x 64 Cajitas de 29 g,ecoplast_variant,64,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00386,Caja x 64 Und (es),ecoplast_variant,64,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00387,Caja x 70 und (es),ecoplast_variant,70,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00388,Caja x 72 Paq de 25 und,ecoplast_variant,72,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00389,Caja x 72 Und (es),ecoplast_variant,72,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00390,Caja x 72 paq de 50 uds.,ecoplast_variant,72,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00391,Caja x 8 Paq x 25 und(es),ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00392,Caja x 8 Und (es),ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00393,Caja x 8 paq,ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00394,Caja x 8 paq x 25 uds,ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00395,Caja x 8 paq x 25 und,ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00396,Caja x 8 paq x 50 und,ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00397,Caja x 80 paq de 100 uds.,ecoplast_variant,80,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00398,Caja x 800 und,ecoplast_variant,800,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00399,Caja x 800 und (es),ecoplast_variant,800,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00400,Caja x 9 paq de 25 uds.,ecoplast_variant,9,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00401,Caja x 9 paq de 450 uds.,ecoplast_variant,9,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00402,Caja x 9 paq de 550 uds.,ecoplast_variant,9,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00403,Caja x 9 paq de 600 uds.,ecoplast_variant,9,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00404,Caja x 90 paq de 50 uds.,ecoplast_variant,90,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00405,Caja x 90 und (es),ecoplast_variant,90,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00406,Caja x 96 Und (es),ecoplast_variant,96,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00407,Caja x 96 Und x 2 sobres,ecoplast_variant,96,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00408,Caja x 98 paq de 50 uds.,ecoplast_variant,98,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00409,Caja x12 und (es),ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00410,Cajita  x 18 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00411,Cajita x 125 und,ecoplast_variant,125,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00412,Cajita x 180 Und (es),ecoplast_variant,180,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00413,Cajita x 24 sobres x 2.5 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00414,Cajita x 29 g (sobre),ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00415,Cajita x 3 unds,ecoplast_variant,3,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00416,Cajita x 50 sobres x 1.5 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00417,Cajita x 50 sobres x 1.6 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00418,Cajita x 50 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00419,Chapeta  x 12 Bolsa de 55 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00420,Chapeta x 12 Bolsa  x 10 gr,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00421,Chapeta x 12 Bolsa  x 60 gr,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00422,Chapeta x 12 Bolsa  x 70 gr,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00423,Chapeta x 12 Bolsa de 55 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00424,Chapeta x 12 Bolsa x 20 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00425,Chapeta x 12 Bolsa x 37 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00426,Chapeta x 12 Bolsa x 55 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00427,Cien,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00428,Cien (es),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00429,Cien(es),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00430,Cuadernillo,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00431,Display  x 4 und,ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00432,Display de 12 pares,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00433,Display de 6 pares,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00434,Display x  12 cajitas,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00435,Display x  6 und,ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00436,Display x 10 Und,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00437,Display x 10 und,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00438,Display x 100 sobres,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00439,Display x 100 und,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00440,Display x 12 Bolsa de 55 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00441,Display x 12 Und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00442,Display x 12 und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00443,Display x 12 und (es),ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00444,Display x 18 duos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00445,Display x 18 und,ecoplast_variant,18,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00446,Display x 20 sobres,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00447,Display x 20 und,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00448,Display x 24  und (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00449,Display x 24 und (es),ecoplast_variant,24,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00450,Display x 25 Und (es),ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00451,Display x 25 bolsa de 9 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00452,Display x 25 sobres,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00453,Display x 30 paq guantes de 1 par,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00454,Display x 36 sobre x 9 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00455,Display x 4 Barra x 125 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00456,Display x 5 Und (es),ecoplast_variant,5,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00457,Display x 50 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00458,Display x 8 Und (es),ecoplast_variant,8,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00459,Displey  (16 paq de 100 uds.),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00460,Displey  (50 paq de 100 uds.),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00461,Duo pack,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00462,Duos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00463,Exibidor x 24 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00464,Kilo (s),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00465,Kilo(s),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00466,Millar  (10 paq de 100 uds.),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00467,Millar ( 1000 uds Aprox.),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00468,Millar ( 1000 und Aprox),ecoplast_variant,1000,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00469,Millar (10 paq de 100 uds.),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00470,Millar (1000 und aprox),ecoplast_variant,1000,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00471,Oferta (s),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00472,Paca x  144 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00473,Paca x  150 und (es),ecoplast_variant,150,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00474,Paca x  500 und aprox,ecoplast_variant,500,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00475,Paca x 10 paq de 200 und,ecoplast_variant,200,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00476,Paca x 100 paq x 50 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00477,Paca x 100 und( es) de 125 g,ecoplast_variant,100,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00478,Paca x 12 Bolsa de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00479,Paca x 12 Bolsas de 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00480,Paca x 12 Und (es),ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00481,Paca x 12 Und (es) x 1000 g,ecoplast_variant,12,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00482,Paca x 12 und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00483,Paca x 15 Bolsa de 400 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00484,Paca x 15 Bolsas de 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00485,Paca x 20 Bolsa de 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00486,Paca x 20 Bolsas de 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00487,Paca x 20 Paq de 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00488,Paca x 22 Bolsa x 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00489,Paca x 24 Bolsa de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00490,Paca x 25 Bolsa x 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00491,Paca x 25 Bolsas de 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00492,Paca x 25 Bolsas de 460 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00493,Paca x 25 Bolsas de 500  g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00494,Paca x 25 Bolsas de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00495,Paca x 25 Bolsas de 504 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00496,Paca x 28 Bolsas de 400 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00497,Paca x 30 Und (es),ecoplast_variant,30,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00498,Paca x 36 paq de 12 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00499,Paca x 4 Paq de 3000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00500,Paca x 4 Und (es),ecoplast_variant,4,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00501,Paca x 40 Bolsa de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00502,Paca x 40 Bolsas de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00503,Paca x 40 Paq de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00504,Paca x 48 Bolsa de 125 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00505,Paca x 48 Und (es),ecoplast_variant,48,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00506,Paca x 48 und de 125 g,ecoplast_variant,48,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00507,Paca x 50 Bolsas de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00508,Paca x 50 paq de 20 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00509,Paca x 57Und (es),ecoplast_variant,57,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00510,Paca x 6 Bolsas de 2500  g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00511,Paca x 6 paq de 3000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00512,Paca x 80 paq x 25 und,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00513,Pag x 50 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00514,Paq de 10 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00515,Paq de 100  uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00516,Paq de 100 ud,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00517,Paq de 100 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00518,Paq de 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00519,Paq de 100 uds.aprox.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00520,Paq de 1000 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00521,Paq de 12 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00522,Paq de 150 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00523,Paq de 20 ud.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00524,Paq de 20 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00525,Paq de 200 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00526,Paq de 200 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00527,Paq de 24 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00528,Paq de 25 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00529,Paq de 25 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00530,Paq de 250 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00531,Paq de 3 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00532,Paq de 300 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00533,Paq de 300 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00534,Paq de 3000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00535,Paq de 320 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00536,Paq de 40 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00537,Paq de 450 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00538,Paq de 50 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00539,Paq de 50 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00540,Paq de 500 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00541,Paq de 500 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00542,Paq de 500 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00543,Paq de 550 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00544,Paq de 600 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00545,Paq de kilo,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00546,Paq guantes de 1 par,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00547,Paq x  100 und,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00548,Paq x  20 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00549,Paq x 10 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00550,Paq x 10 und,ecoplast_variant,10,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00551,Paq x 100 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00552,Paq x 100 uds Aprox.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00553,Paq x 100 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00554,Paq x 100 uds. aprox.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00555,Paq x 100 und,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00556,Paq x 100 und (es),ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00557,Paq x 100 und aprox,ecoplast_variant,100,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00558,Paq x 100 unidades,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00559,Paq x 1000 und,ecoplast_variant,1000,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00560,Paq x 12 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00561,Paq x 12 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00562,Paq x 12 und,ecoplast_variant,12,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00563,Paq x 150 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00564,Paq x 150 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00565,Paq x 150 und(es),ecoplast_variant,150,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00566,Paq x 2  rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00567,Paq x 2 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00568,Paq x 2 und,ecoplast_variant,2,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00569,Paq x 20 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00570,Paq x 20 und,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00571,Paq x 200 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00572,Paq x 200 uds aprox.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00573,Paq x 200 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00574,Paq x 200 unidades aprox.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00575,Paq x 25 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00576,Paq x 25 und,ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00577,Paq x 250 Und,ecoplast_variant,250,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00578,Paq x 250 g aprox.,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00579,Paq x 250 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00580,Paq x 3 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00581,Paq x 3 und,ecoplast_variant,3,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00582,Paq x 300 und aprox,ecoplast_variant,300,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00583,Paq x 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00584,Paq x 40 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00585,Paq x 40 und (es),ecoplast_variant,40,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00586,Paq x 400 unidades,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00587,Paq x 50 Und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00588,Paq x 50 uds,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00589,Paq x 50 uds.,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00590,Paq x 50 und,ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00591,Paq x 50 und (es),ecoplast_variant,50,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00592,Paq x 50 unidades,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00593,Paq x 500 und,ecoplast_variant,500,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00594,Paq x 6 und (es),ecoplast_variant,6,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00595,Paquete x 12 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00596,Paquete x 24 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00597,Paquete x 25 und(es),ecoplast_variant,25,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00598,Paquete x 4 rollos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00599,Paquete x 80 und (es),ecoplast_variant,80,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00600,Par de pilas,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00601,Redoxon Total Eferv  Tab x 20,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00602,Resma de 20 cuadernillo,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00603,Ristra x  36 sobre x 9 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00604,Rollo (s),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00605,Rollo (s) x 120 Hojas,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00606,Rollo (s) x 150 Hojas,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00607,Sobre de 100 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00608,Sobre x 9 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00609,Spay x 120 ml,ecoplast_variant,,,U02,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00610,Taco x 4,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00611,Tarrito  x 250 Und (es),ecoplast_variant,250,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00612,Und (es),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00613,Und (es) x 1000 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00614,Und (es) x 125 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00615,Und (es) x 250 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00616,Und (s),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00617,Und x 100 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00618,Und x 2 sobres,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00619,Und x 475 gr,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00620,Und x 800 g,ecoplast_variant,,,U08,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00621,Unid,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00622,Unidad (es,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00623,Unidad (es),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00624,bulto x 24 paq,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00625,cien,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00626,kilo (s),ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00627,kilos,ecoplast_variant,,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.
+UC00628,paq x 20 und,ecoplast_variant,20,,,,propuesto,Texto libre desde ecoplast; cantidad/factor solo si patrón regex coincidió; validar humano.

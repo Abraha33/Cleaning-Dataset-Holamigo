@@ -1,0 +1,51 @@
+Definición de tablas CSV (cabeceras = contrato). UTF-8 con BOM en los .csv para Excel.
+
+brand_master.csv
+  brand_id              Identificador estable generado (BM#####).
+  canonical_name        Nombre canónico propuesto (prioriza brands.json en el cluster).
+  norm_key              Clave minúsculas y espacios colapsados (solo trazabilidad).
+  sources_present       Orígenes donde aparece alguna variante del cluster.
+  variant_count         Cuántas cadenas distintas hay en el cluster.
+  status                propuesto | aprobado (aprobado solo tras revisión humana explícita).
+  notas                 Texto fijo de cautela / proceso.
+
+brand_alias.csv
+  alias_id              BA#####.
+  alias_raw             Texto fuente distinto del canónico.
+  brand_id              FK lógica a brand_master.brand_id.
+  canonical_name        Copia del canónico del cluster (facilita filtrar en Excel).
+  match_type            exact_literal | case_or_spacing_fold.
+  status                aprobado solo si alias idéntico al canónico (no aplica filas aquí); resto propuesto.
+  notas                 Por qué sigue pendiente.
+
+normalization_dict.csv
+  norm_id               ND#####.
+  domain                color | material | unit.
+  raw_variant           Valor tal cual en fuente o abreviatura.
+  canonical_key         id del JSON maestro (C01, M01, U01, ...).
+  canonical_display     nombre legible del maestro.
+  status                aprobado si raw_variant es exactamente nombre o abreviatura del maestro.
+  notas                 Fuente del match exacto.
+
+category_bridge_candidates.csv
+  bridge_id             CB#####.
+  source_system         ecoplast_data (u otros si se amplía).
+  source_category_path  category en ecoplast_data.json.
+  suggested_official_codigo   Rellenar desde Categories_Tienda_Linea.xlsx tras acordar columnas.
+  suggested_official_path     Idem.
+  oracle_path_exact_match     Misma cadena que en categorias_oraculo.json si hubo match textual exacto.
+  internal_erp_codigo_hint    codigo en categorias.json si la ruta completa normalizada coincide con el árbol interno.
+  match_method          exact_text_oracle | internal_path_norm_exact | exact_text_oracle+internal_path_norm_exact | none.
+  status                propuesto hasta cruzar con Excel oficial y reglas aprobadas.
+  notas                 Contexto y limitaciones.
+
+unit_master_candidates.csv
+  unit_candidate_id     UC#####.
+  raw_presentation      nombre o texto de variante ecoplast.
+  source                unities_json | ecoplast_variant.
+  parsed_quantity       Dígitos si regex de cantidad aplicó (ej. caja x 200).
+  parsed_unit_token     Reservado para token de unidad explícito.
+  suggested_unity_id    U01.. si abreviatura de unities aparece como palabra en el texto (heurística débil).
+  factor_to_base        Vacío salvo regla aprobada.
+  status                aprobado para filas de unities_json; propuesto para ecoplast.
+  notas                 Advertencias para texto libre.

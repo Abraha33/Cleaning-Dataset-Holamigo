@@ -1,0 +1,55 @@
+﻿raw_value,possible_brand_id,possible_brand_name,reason,confidence,status
+Bambu / Chevere,,,"Cadena compuesta con dos marcas presentes en brands.xlsx (BAMBU código BAM, CHEVERE código CHE); sin regla explícita de mapeo a una sola marca.",,propuesto
+Blony,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Caribe,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Clic Medical,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Coffe,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Coffee,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Deco,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Eco,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Ecomax,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Economico,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Extra,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Face Mask,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Favorita,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Fresh,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Full Fresh,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Furor,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Golazo,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Goldenwrap,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Gruesa,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Housel,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Icoplastin,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Intermedio,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Las Delicias,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Lider,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Marplast,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Mia,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Mp,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Opaca,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Pague 2 Lleve 4,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Pedigrre,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Pinto,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Pizza,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Plastic Gloves,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Popular,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Protexion,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Rendipel,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+S.M,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Sani Tisu,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Scott,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Sm,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Son Plast,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Star,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Super Blank,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+T&T,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Td,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Tork,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Tradicional,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Troformas,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Tu-Go,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Vacan,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Vasdecol,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Vbc,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Wau,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto
+Whiskas,,,Sin coincidencia por clave nk (minúsculas y sin espacios) con ningún Nombre único en brands.xlsx; no se asigna marca automáticamente.,,propuesto

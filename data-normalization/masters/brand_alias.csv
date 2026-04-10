@@ -1,0 +1,25 @@
+﻿alias_id,brand_id,alias_name,alias_slug,alias_type,source,usage_count,status
+AL00001,ACM,Acme Leon,acme-leon,display_variant,marcas_oraculo.json,14,propuesto
+AL00002,BAM,Bambu,bambu,case_variant,marcas_oraculo.json,24,propuesto
+AL00003,CHE,Chevere,chevere,case_variant,marcas_oraculo.json,30,propuesto
+AL00004,DAR,Darnel,darnel,case_variant,marcas_oraculo.json,348,propuesto
+AL00005,ELR,El Rey,el-rey,case_variant,marcas_oraculo.json,42,propuesto
+AL00006,ELS,El Sol,el-sol,case_variant,marcas_oraculo.json,34,propuesto
+AL00007,FAB,Fabripor,fabripor,case_variant,marcas_oraculo.json,14,propuesto
+AL00008,FAM,Familia,familia,case_variant,marcas_oraculo.json,10,propuesto
+AL00009,FAY,Fayco,fayco,case_variant,marcas_oraculo.json,2,propuesto
+AL00010,FORMOSA,Formosa,formosa,case_variant,marcas_oraculo.json,4,propuesto
+AL00011,GOLDEN,Golden,golden,case_variant,marcas_oraculo.json,22,propuesto
+AL00012,GUT,Gutvan,gutvan,case_variant,marcas_oraculo.json,20,propuesto
+AL00013,HOU,House,house,case_variant,marcas_oraculo.json,38,propuesto
+AL00014,MEDSONIC,Medsonic,medsonic,case_variant,marcas_oraculo.json,22,propuesto
+AL00015,MI,Mi Chef,mi-chef,case_variant,marcas_oraculo.json,8,propuesto
+AL00016,MIO,Mio,mio,case_variant,marcas_oraculo.json,112,propuesto
+AL00017,NUB,Nube,nube,case_variant,marcas_oraculo.json,16,propuesto
+AL00018,PAP,Papeles Regionales,papeles-regionales,case_variant,marcas_oraculo.json,16,propuesto
+AL00019,REGIONAL,Regional,regional,case_variant,marcas_oraculo.json,2,propuesto
+AL00020,SPLAST,Superplast,superplast,case_variant,marcas_oraculo.json,12,propuesto
+AL00021,TAMI,Tami,tami,case_variant,marcas_oraculo.json,38,propuesto
+AL00022,TIS,Tisu,tisu,case_variant,marcas_oraculo.json,6,propuesto
+AL00023,UNI,Unibol,unibol,case_variant,marcas_oraculo.json,4,propuesto
+AL00024,VAS,Vasander,vasander,case_variant,marcas_oraculo.json,8,propuesto

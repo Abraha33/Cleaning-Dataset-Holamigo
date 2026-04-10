@@ -1,0 +1,62 @@
+[
+  {
+    "id": "M01",
+    "nombre": "PET",
+    "descripcion": "Polietileno Tereftalato",
+    "abreviatura": "PET"
+  },
+  {
+    "id": "M02",
+    "nombre": "Polipropileno",
+    "descripcion": "PP - Apto para microondas",
+    "abreviatura": "PP"
+  },
+  {
+    "id": "M03",
+    "nombre": "Icopor",
+    "descripcion": "Poliestireno expandido (EPS)",
+    "abreviatura": "EPS"
+  },
+  {
+    "id": "M04",
+    "nombre": "Cartón",
+    "descripcion": "Cartón corrugado o microcorrugado",
+    "abreviatura": "CAR"
+  },
+  {
+    "id": "M05",
+    "nombre": "Papel Kraft",
+    "descripcion": "Papel de estraza natural",
+    "abreviatura": "KRA"
+  },
+  {
+    "id": "M06",
+    "nombre": "Bagazo de Caña",
+    "descripcion": "Fibra natural compostable",
+    "abreviatura": "BCA"
+  },
+  {
+    "id": "M07",
+    "nombre": "PLA",
+    "descripcion": "Ácido Poliláctico (Bioplástico)",
+    "abreviatura": "PLA"
+  },
+  {
+    "id": "M08",
+    "nombre": "Aluminio",
+    "descripcion": "Aluminio flexible o rígido",
+    "abreviatura": "ALU"
+  },
+  {
+    "id": "M09",
+    "nombre": "Madera",
+    "descripcion": "Madera natural astillada",
+    "abreviatura": "MAD"
+  },
+  {
+    "id": "M10",
+    "nombre": "Bambú",
+    "descripcion": "Fibra de bambú natural",
+    "abreviatura": "BAM"
+  }
+]

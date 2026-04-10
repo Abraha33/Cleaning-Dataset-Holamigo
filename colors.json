@@ -1,0 +1,52 @@
+[
+  {
+    "id": "C01",
+    "nombre": "Transparente",
+    "abreviatura": "TR"
+  },
+  {
+    "id": "C02",
+    "nombre": "Blanco",
+    "abreviatura": "BL"
+  },
+  {
+    "id": "C03",
+    "nombre": "Negro",
+    "abreviatura": "NG"
+  },
+  {
+    "id": "C04",
+    "nombre": "Kraft",
+    "abreviatura": "KR"
+  },
+  {
+    "id": "C05",
+    "nombre": "Natural",
+    "abreviatura": "NT"
+  },
+  {
+    "id": "C06",
+    "nombre": "Rojo",
+    "abreviatura": "RJ"
+  },
+  {
+    "id": "C07",
+    "nombre": "Azul",
+    "abreviatura": "AZ"
+  },
+  {
+    "id": "C08",
+    "nombre": "Verde",
+    "abreviatura": "VD"
+  },
+  {
+    "id": "C09",
+    "nombre": "Amarillo",
+    "abreviatura": "AM"
+  },
+  {
+    "id": "C10",
+    "nombre": "Surtido",
+    "abreviatura": "ST"
+  }
+]

@@ -1,0 +1,59 @@
+﻿norm_id,domain,raw_variant,canonical_key,canonical_display,status,notas
+ND00001,color,Transparente,C01,Transparente,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00002,color,TR,C01,Transparente,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00003,color,Blanco,C02,Blanco,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00004,color,BL,C02,Blanco,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00005,color,Negro,C03,Negro,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00006,color,NG,C03,Negro,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00007,color,Kraft,C04,Kraft,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00008,color,KR,C04,Kraft,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00009,color,Natural,C05,Natural,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00010,color,NT,C05,Natural,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00011,color,Rojo,C06,Rojo,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00012,color,RJ,C06,Rojo,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00013,color,Azul,C07,Azul,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00014,color,AZ,C07,Azul,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00015,color,Verde,C08,Verde,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00016,color,VD,C08,Verde,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00017,color,Amarillo,C09,Amarillo,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00018,color,AM,C09,Amarillo,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00019,color,Surtido,C10,Surtido,aprobado,Match exacto con catálogo colors.json (nombre).
+ND00020,color,ST,C10,Surtido,aprobado,Match exacto con catálogo colors.json (abreviatura).
+ND00021,material,PET,M01,PET,aprobado,Match exacto con catálogo material.json (nombre).
+ND00022,material,Polipropileno,M02,Polipropileno,aprobado,Match exacto con catálogo material.json (nombre).
+ND00023,material,PP,M02,Polipropileno,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00024,material,Icopor,M03,Icopor,aprobado,Match exacto con catálogo material.json (nombre).
+ND00025,material,EPS,M03,Icopor,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00026,material,Cartón,M04,Cartón,aprobado,Match exacto con catálogo material.json (nombre).
+ND00027,material,CAR,M04,Cartón,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00028,material,Papel Kraft,M05,Papel Kraft,aprobado,Match exacto con catálogo material.json (nombre).
+ND00029,material,KRA,M05,Papel Kraft,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00030,material,Bagazo de Caña,M06,Bagazo de Caña,aprobado,Match exacto con catálogo material.json (nombre).
+ND00031,material,BCA,M06,Bagazo de Caña,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00032,material,PLA,M07,PLA,aprobado,Match exacto con catálogo material.json (nombre).
+ND00033,material,Aluminio,M08,Aluminio,aprobado,Match exacto con catálogo material.json (nombre).
+ND00034,material,ALU,M08,Aluminio,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00035,material,Madera,M09,Madera,aprobado,Match exacto con catálogo material.json (nombre).
+ND00036,material,MAD,M09,Madera,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00037,material,Bambú,M10,Bambú,aprobado,Match exacto con catálogo material.json (nombre).
+ND00038,material,BAM,M10,Bambú,aprobado,Match exacto con catálogo material.json (abreviatura).
+ND00039,unit,Onzas,U01,Onzas,aprobado,Catálogo unities.json (tipo=Volumen).
+ND00040,unit,oz,U01,Onzas,aprobado,Catálogo unities.json abreviatura (tipo=Volumen).
+ND00041,unit,Mililitros,U02,Mililitros,aprobado,Catálogo unities.json (tipo=Volumen).
+ND00042,unit,ml,U02,Mililitros,aprobado,Catálogo unities.json abreviatura (tipo=Volumen).
+ND00043,unit,Litros,U03,Litros,aprobado,Catálogo unities.json (tipo=Volumen).
+ND00044,unit,L,U03,Litros,aprobado,Catálogo unities.json abreviatura (tipo=Volumen).
+ND00045,unit,Centímetros Cúbicos,U04,Centímetros Cúbicos,aprobado,Catálogo unities.json (tipo=Volumen).
+ND00046,unit,cc,U04,Centímetros Cúbicos,aprobado,Catálogo unities.json abreviatura (tipo=Volumen).
+ND00047,unit,Centímetros,U05,Centímetros,aprobado,Catálogo unities.json (tipo=Longitud).
+ND00048,unit,cm,U05,Centímetros,aprobado,Catálogo unities.json abreviatura (tipo=Longitud).
+ND00049,unit,Milímetros,U06,Milímetros,aprobado,Catálogo unities.json (tipo=Longitud).
+ND00050,unit,mm,U06,Milímetros,aprobado,Catálogo unities.json abreviatura (tipo=Longitud).
+ND00051,unit,Pulgadas,U07,Pulgadas,aprobado,Catálogo unities.json (tipo=Longitud).
+ND00052,unit,in,U07,Pulgadas,aprobado,Catálogo unities.json abreviatura (tipo=Longitud).
+ND00053,unit,Gramos,U08,Gramos,aprobado,Catálogo unities.json (tipo=Peso).
+ND00054,unit,g,U08,Gramos,aprobado,Catálogo unities.json abreviatura (tipo=Peso).
+ND00055,unit,Kilogramos,U09,Kilogramos,aprobado,Catálogo unities.json (tipo=Peso).
+ND00056,unit,kg,U09,Kilogramos,aprobado,Catálogo unities.json abreviatura (tipo=Peso).
+ND00057,unit,Libras,U10,Libras,aprobado,Catálogo unities.json (tipo=Peso).
+ND00058,unit,lb,U10,Libras,aprobado,Catálogo unities.json abreviatura (tipo=Peso).

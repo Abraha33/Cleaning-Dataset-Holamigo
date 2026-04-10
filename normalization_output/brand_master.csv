@@ -1,0 +1,146 @@
+﻿brand_id,canonical_name,norm_key,sources_present,variant_count,status,notas
+BM00001,Acme Leon,acme leon,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00002,ACMELEON,acmeleon,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00003,ALICO,alico,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00004,AMI,ami,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00005,ARTESANAL,artesanal,brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00006,BAMBU,bambu,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00007,Bambu / Chevere,bambu / chevere,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00008,BARVAL,barval,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00009,Blony,blony,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00010,CAJAS Y ESTILOS,cajas y estilos,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00011,Caribe,caribe,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00012,carlyplast,carlyplast,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00013,CARVAJAL,carvajal,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00014,CELLUX,cellux,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00015,CHEVERE,chevere,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00016,CINTAS Y PEGAS,cintas y pegas,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00017,Clic Medical,clic medical,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00018,COENPLAST,coenplast,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00019,Coffe,coffe,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00020,Coffee,coffee,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00021,DARNEL,darnel,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00022,Deco,deco,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00023,DISTRIPLAS,distriplas,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00024,Eco,eco,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00025,ECOBOLSAS-CARIBE,ecobolsas-caribe,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00026,Ecomax,ecomax,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00027,Economico,economico,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00028,ECOPLASTER,ecoplaster,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00029,ECOVASOS,ecovasos,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00030,EL CONTAINER,el container,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00031,EL REY,el rey,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00032,EL SOL,el sol,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00033,ELITE,elite,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00034,ETERNA,eterna,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00035,Extra,extra,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00036,FABOL,fabol,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00037,FABRICA PALITOS,fabrica palitos,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00038,FABRIPOR,fabripor,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00039,Face Mask,face mask,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00040,FADEVESA,fadevesa,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00041,FAMILIA,familia,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00042,Favorita,favorita,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00043,FAYCO,fayco,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00044,FESTIVAL,festival,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00045,FLORIDA,florida,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00046,FORMOSA,formosa,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00047,FRESCH,fresch,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00048,Fresh,fresh,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00049,Full Fresh,full fresh,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00050,Furor,furor,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00051,GENERAL,general,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00052,Golazo,golazo,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00053,GOLDEN,golden,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00054,Goldenwrap,goldenwrap,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00055,Gruesa,gruesa,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00056,GUTVAN,gutvan,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00057,HOUSE,house,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00058,Housel,housel,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00059,Icoplastin,icoplastin,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00060,ICOPORMEDELLIN,icopormedellin,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00061,INCOLPA,incolpa,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00062,INCOMAD S.A.S.,incomad s.a.s.,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00063,INNOVARTE,innovarte,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00064,Intermedio,intermedio,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00065,JAZA,jaza,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00066,JORGE HERNANDEZ,jorge hernandez,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00067,JPLAST,jplast,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00068,LAR,lar,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00069,Las Delicias,las delicias,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00070,LASTRA,lastra,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00071,Lider,lider,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00072,Marplast,marplast,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00073,MEDIMAX,medimax,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00074,MEDSONIC,medsonic,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00075,MI CHEF,mi chef,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00076,Mia,mia,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00077,MILCAJAS,milcajas,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00078,MIO,mio,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00079,MIX,mix,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00080,Mp,mp,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00081,NELTA,nelta,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00082,NOVAPLAST,novaplast,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00083,NUBE,nube,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00084,ONE,one,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00085,Opaca,opaca,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00086,OPTIONSA,optionsa,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00087,Pague 2 Lleve 4,pague 2 lleve 4,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00088,PAPELES REGIONALES,papeles regionales,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00089,PARAFIN MEDELLI,parafin medelli,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00090,Pedigrre,pedigrre,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00091,PELETERIA Y LOMAS,peleteria y lomas,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00092,PHOENIX,phoenix,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00093,PIEDRAHITA,piedrahita,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00094,Pinto,pinto,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00095,Pizza,pizza,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00096,Plastic Gloves,plastic gloves,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00097,PLASTICOS JD,plasticos jd,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00098,PLASTIGARZON,plastigarzon,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00099,PLASTIMAX,plastimax,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00100,PLASTISAG,plastisag,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00101,Popular,popular,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00102,PRODESCOL,prodescol,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00103,PROMOCIONES FANTASTICAS,promociones fantasticas,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00104,PROTEX,protex,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00105,Protexion,protexion,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00106,QUINTER,quinter,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00107,REFISAL,refisal,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00108,REGIONAL,regional,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00109,Rendipel,rendipel,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00110,RINHO,rinho,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00111,S.M,s.m,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00112,Sani Tisu,sani tisu,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00113,SANTAMARIA,santamaria,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00114,Scott,scott,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00115,SKAAP,skaap,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00116,Sm,sm,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00117,SNEIDER,sneider,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00118,SOLUZZIPER,soluzziper,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00119,Son Plast,son plast,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00120,Star,star,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00121,STAR PLASTIC,star plastic,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00122,Super Blank,super blank,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00123,SUPERPLAST,superplast,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00124,SUQUIN S.A.S.,suquin s.a.s.,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00125,T&T,t&t,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00126,TAMI,tami,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00127,TATIPLAS,tatiplas,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00128,Td,td,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00129,TECNIROLLOS,tecnirollos,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00130,TISU,tisu,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00131,TODO ASEO,todo aseo,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00132,Tork,tork,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00133,Tradicional,tradicional,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00134,Troformas,troformas,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00135,Tu-Go,tu-go,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00136,UNIBOL,unibol,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00137,URIBE PLAST,uribe plast,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00138,Vacan,vacan,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00139,VASANDER,vasander,brands_json|brands_xlsx|marcas_oraculo,2,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00140,Vasdecol,vasdecol,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00141,Vbc,vbc,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00142,Wau,wau,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00143,Whiskas,whiskas,marcas_oraculo,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00144,WILLIVALERO,willivalero,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.
+BM00145,YESTER,yester,brands_json|brands_xlsx,1,propuesto,Agrupación por igualdad sin distinguir mayúsculas/espacios; requiere validación humana.

@@ -1,0 +1,47 @@
+Resumen — normalización de catálogo (candidatos)
+============================================================
+
+Advertencias / archivos:
+  - Archivo no encontrado: C:\Users\acace\CleanigDataset_Holamigo\Categories_Tienda_Linea.xlsx
+  - brands.xlsx cargado: 90 filas (columna marca inferida).
+
+Conteos:
+  brand_master: 145
+  brand_alias: 23
+  normalization_dict: 58
+  category_bridge_candidates: 156
+  unit_master_candidates: 628
+  categorías únicas ecoplast: 156
+  presentaciones únicas ecoplast: 618
+
+Ambigüedades y pendientes (no auto-aprobados):
+  - Marca cluster 'BAMBU': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'CHEVERE': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'DARNEL': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'EL REY': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'EL SOL': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'FABRIPOR': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'FAMILIA': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'FAYCO': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'FORMOSA': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'GOLDEN': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'GUTVAN': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'HOUSE': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'MEDSONIC': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'MI CHEF': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'MIO': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'NUBE': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'PAPELES REGIONALES': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'REGIONAL': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'SUPERPLAST': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'TAMI': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'TISU': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'UNIBOL': 2 variantes ortográficas — revisar si son la misma marca.
+  - Marca cluster 'VASANDER': 2 variantes ortográficas — revisar si son la misma marca.
+  - Posibles marcas duplicadas (mismo texto sin espacios; NO fusionadas): ACMELEON | Acme Leon
+  - 181 presentaciones ecoplast contienen 'und'/'unidad'; no se mapean a unidades del maestro sin regla aprobada.
+
+Criterios aplicados:
+  - status=aprobado: solo match exacto contra catálogos JSON estructurados (nombre/abreviatura) o alias idéntico al canónico.
+  - Marcas: clusters por minúsculas/espacios; todo propuesto salvo alias trivial.
+  - Categorías: sin Categories_Tienda_Linea.xlsx no hay codigo/path oficial sugerido.

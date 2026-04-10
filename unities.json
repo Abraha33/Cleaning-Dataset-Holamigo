@@ -1,0 +1,62 @@
+[
+  {
+    "id": "U01",
+    "nombre": "Onzas",
+    "tipo": "Volumen",
+    "abreviatura": "oz"
+  },
+  {
+    "id": "U02",
+    "nombre": "Mililitros",
+    "tipo": "Volumen",
+    "abreviatura": "ml"
+  },
+  {
+    "id": "U03",
+    "nombre": "Litros",
+    "tipo": "Volumen",
+    "abreviatura": "L"
+  },
+  {
+    "id": "U04",
+    "nombre": "Centímetros Cúbicos",
+    "tipo": "Volumen",
+    "abreviatura": "cc"
+  },
+  {
+    "id": "U05",
+    "nombre": "Centímetros",
+    "tipo": "Longitud",
+    "abreviatura": "cm"
+  },
+  {
+    "id": "U06",
+    "nombre": "Milímetros",
+    "tipo": "Longitud",
+    "abreviatura": "mm"
+  },
+  {
+    "id": "U07",
+    "nombre": "Pulgadas",
+    "tipo": "Longitud",
+    "abreviatura": "in"
+  },
+  {
+    "id": "U08",
+    "nombre": "Gramos",
+    "tipo": "Peso",
+    "abreviatura": "g"
+  },
+  {
+    "id": "U09",
+    "nombre": "Kilogramos",
+    "tipo": "Peso",
+    "abreviatura": "kg"
+  },
+  {
+    "id": "U10",
+    "nombre": "Libras",
+    "tipo": "Peso",
+    "abreviatura": "lb"
+  }
+]

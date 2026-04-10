@@ -1,0 +1,232 @@
+{
+  "Darnel": {
+    "Contenedores y Portacomidas": [
+      { "producto": "Portacomidas", "linea": "Darnel BIO", "caracteristica": "Biodegradable" },
+      { "producto": "Portacomidas", "linea": "Darnel Naturals", "material": "Bagazo de Caña" },
+      { "producto": "Contenedor", "linea": "Darnel Naturals", "material": "Cartón" },
+      { "producto": "Contenedor", "linea": "Deli Pro-To-Go", "material": "PET reciclado" },
+      { "producto": "Contenedor", "material": "Espumado", "tipo": "Termico" }
+    ],
+    "Vajilla": [
+      { "producto": "Plato", "linea": "Resq", "material": "Reciclado" },
+      { "producto": "Plato", "linea": "Premium", "estilo": "Elegante" },
+      { "producto": "Plato", "linea": "Petite", "uso": "Catering" }
+    ],
+    "Bandejas": [
+      { "producto": "Bandeja", "material": "Espumado" },
+      { "producto": "Bandeja", "material": "PET", "tipo": "Rígida" },
+      { "producto": "Bandeja", "linea": "Biodegradable" }
+    ],
+    "Vasos y Copas": [
+      { "producto": "Vaso", "linea": "Darnel BIO", "tipo": "Térmico" },
+      { "producto": "Vaso", "linea": "Darnel Naturals", "material": "Papel" },
+      { "producto": "Copa", "linea": "Murano", "tipo": "Veneciana" }
+    ],
+    "Cubiertos": [
+      { "producto": "Set de cubiertos", "linea": "Clean Touch" },
+      { "producto": "Cubiertos", "linea": "Darnel BIO" }
+    ],
+    "Películas y Aluminio": [
+      { "producto": "Película Extensible", "uso": "Alimentos (PVC/Polyolefin)" },
+      { "producto": "Papel Aluminio" }
+    ]
+  },
+  "VBC": {
+    "Vasos": [
+      { "producto": "Vaso", "material": "Cartón" },
+      { "producto": "Vaso", "material": "Plástico" }
+    ],
+    "Tapas": [
+      { "producto": "Tapa", "material": "Cartón" },
+      { "producto": "Tapa", "material": "Plástico" }
+    ],
+    "Bolsas": [
+      { "producto": "Bolsa", "material": "Plástico" }
+    ]
+  },
+  "Marplast": {
+    "Cubiertos": [
+      { "producto": "Cuchillo", "material": "Plástico" },
+      { "producto": "Cuchara", "material": "Plástico" },
+      { "producto": "Cucharita", "material": "Plástico" }
+    ],
+    "Vasos": [
+      { "producto": "Vaso", "material": "Plástico" }
+    ]
+  },
+  "Formosa": {
+    "Vasos": [
+      { "producto": "Vaso", "material": "Plástico" }
+    ]
+  },
+  "Fadevesa": {
+    "Aluminio": [
+      { "producto": "Envases", "material": "Aluminio" }
+    ]
+  },
+  "Icopolímero": {
+    "Icopor": [
+      { "producto": "Copa suflé", "material": "Icopor" },
+      { "producto": "Tapa suflé", "material": "Icopor" }
+    ]
+  },
+  "Fabripor": {
+    "Icopor": [
+      { "producto": "Copa suflé", "material": "Icopor" },
+      { "producto": "Tapa suflé", "material": "Icopor" }
+    ]
+  },
+  "Alico": {
+    "Contenedores": [
+      { "producto": "Porta comida", "material": "Plástico" }
+    ],
+    "Bolsas": [
+      { "producto": "Bolsa Flex", "caracteristica": "Válvula sellada" }
+    ]
+  },
+  "Ami": {
+    "PortaComidas": [
+      { "producto": "Porta comida", "material": "Papel" },
+      { "producto": "Porta comida", "material": "Bambú" },
+      { "producto": "Porta comida", "material": "Caña" }
+    ]
+  },
+  "Bambú": {
+    "Vasos": [
+      { "producto": "Vaso", "material": "Cartón" }
+    ],
+    "Pitillos": [
+      { "producto": "Pitillo", "material": "Bambú" }
+    ]
+  },
+  "Barbal": {
+    "Helado": [
+      { "producto": "Vaso", "material": "Cartón" },
+      { "producto": "Tapa", "tipo": "Domo" }
+    ]
+  },
+  "Carvajal": {
+    "Vasos": [
+      { "producto": "Vaso", "material": "Plástico", "tapa": "Domo" }
+    ],
+    "Icopor": [
+      { "producto": "Porta comida", "material": "Icopor" }
+    ]
+  },
+  "Chevere": {
+    "Guantes": [
+      { "producto": "Guante" }
+    ],
+    "Cintas": [
+      { "producto": "Cinta", "material": "Papel" },
+      { "producto": "Cinta", "material": "Plástico" }
+    ]
+  },
+  "Generico": {
+    "Bolsas": [
+      { "producto": "Bolsa", "densidad": "Baja" },
+      { "producto": "Bolsa", "densidad": "Alta" }
+    ]
+  },
+  "El Rey": {
+    "Limpieza": [
+      { "producto": "Esponja" }
+    ]
+  },
+  "El Sol": {
+    "Palillos": [
+      { "producto": "Palillo", "tipo": "Vasos" },
+      { "producto": "Palillo", "tipo": "Pinchuzo" },
+      { "producto": "Palillo", "tipo": "Dientes" },
+      { "producto": "Palillo", "tipo": "Hamburguesa" }
+    ]
+  },
+  "Eternos": {
+    "Guantes": [ { "producto": "Guante", "tipo": "Uso general" } ]
+  },
+  "Nitrix": {
+    "Guantes": [ { "producto": "Guante", "material": "Nitrilo" } ]
+  },
+  "Rinho": {
+    "Guantes": [ { "producto": "Guante", "tipo": "Resistente" } ]
+  },
+  "Mío": {
+    "Guantes": [ { "producto": "Guante" } ]
+  },
+  "Medimax": {
+    "Guantes": [ { "producto": "Guante", "tipo": "Médico" } ]
+  },
+  "Protex": {
+    "Guantes": [ { "producto": "Guante" } ]
+  },
+  "Medsonic": {
+    "Guantes": [ { "producto": "Guante" } ]
+  },
+  "Fabol": {
+    "Bolsas": [
+      { "producto": "Bolsa de aseo" }
+    ]
+  },
+  "Quinterplast": {
+    "Bolsas": [
+      { "producto": "Bolsa de aseo" },
+      { "producto": "Bolsa", "material": "Polipropileno (PP)" }
+    ]
+  },
+  "House": {
+    "Cartón": [
+      { "producto": "Contenedor de comida" },
+      { "producto": "Contenedor de sopa", "tapa": true }
+    ]
+  },
+  "Fresh": {
+    "Cubiertos": [
+      { "producto": "Cuchillo", "material": "Plástico" },
+      { "producto": "Cuchara", "material": "Plástico" },
+      { "producto": "Cucharita", "material": "Plástico" }
+    ],
+    "Vasos": [
+      { "producto": "Vaso güisquero", "material": "Plástico" }
+    ]
+  },
+  "Jorge_Hernandez": {
+    "Bolsas": [
+      { "producto": "Bolsa", "densidad": "Baja" },
+      { "producto": "Bolsa", "densidad": "Alta" }
+    ]
+  },
+  "Lar": {
+    "Vinipel": [
+      { "producto": "Vinipel estrecho" }
+    ]
+  },
+  "Novaplast": {
+    "Servilletas": [ { "producto": "Servilleta" } ]
+  },
+  "Nube": {
+    "Servilletas": [ { "producto": "Servilleta" } ]
+  },
+  "Skaap": {
+    "Servilletas": [ { "producto": "Servilleta" } ]
+  },
+  "Familia": {
+    "Servilletas": [ { "producto": "Servilleta" } ]
+  },
+  "Regional": {
+    "Bolsas": [ { "producto": "Bolsa de papel" } ]
+  },
+  "Unibol": {
+    "Bolsas": [ { "producto": "Bolsa de papel" } ]
+  },
+  "Soluzipper": {
+    "Bolsas": [
+      { "producto": "Bolsa", "tipo": "Hermética" }
+    ]
+  },
+  "Tami": {
+    "Cubiertos": [
+      { "producto": "Cuchillo", "tamaños": ["Pequeño", "Mediano", "Grande"] },
+      { "producto": "Cuchara", "tamaños": ["Pequeño", "Mediano", "Grande"] }
+    ]
+  }
+}
