@@ -9,10 +9,13 @@ OWNER        = "Abraha33"
 REPO         = "Cleaning-Dataset-Holamigo"
 # ============================================
 
+if not TOKEN:
+    raise ValueError("GITHUB_TOKEN environment variable is not set. Run: set GITHUB_TOKEN=your_token_here")
+
 HEADERS = {
-    "Authorization": f"Bearer {GITHUB_TOKEN}",
-    "Content-Type": "application/json",
-    "X-Github-Next-Global-ID": "1"
+    "Authorization": f"Bearer {TOKEN}",
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28"
 }
 
 def graphql(query, variables={}):
