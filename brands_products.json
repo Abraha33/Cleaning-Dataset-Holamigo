@@ -7,7 +7,7 @@
       { "producto": "Contenedor", "linea": "Deli Pro-To-Go", "material": "PET reciclado" },
       { "producto": "Contenedor", "material": "Espumado", "tipo": "Termico" }
     ],
-    "Vajilla": [
+    "Platos": [
       { "producto": "Plato", "linea": "Resq", "material": "Reciclado" },
       { "producto": "Plato", "linea": "Premium", "estilo": "Elegante" },
       { "producto": "Plato", "linea": "Petite", "uso": "Catering" }
@@ -26,7 +26,7 @@
       { "producto": "Set de cubiertos", "linea": "Clean Touch" },
       { "producto": "Cubiertos", "linea": "Darnel BIO" }
     ],
-    "Películas y Aluminio": [
+    "Películas, Aluminio, viniepl, strech": [
       { "producto": "Película Extensible", "uso": "Alimentos (PVC/Polyolefin)" },
       { "producto": "Papel Aluminio" }
     ]
@@ -130,7 +130,9 @@
   },
   "El Rey": {
     "Limpieza": [
-      { "producto": "Esponja" }
+      { "producto": "Esponja" },
+      { "producto": "Brillo" },
+      { "producto": "Trapillo" }
     ]
   },
   "El Sol": {
@@ -141,7 +143,7 @@
       { "producto": "Palillo", "tipo": "Hamburguesa" }
     ]
   },
-  "Eternos": {
+  "Eterna": {
     "Guantes": [ { "producto": "Guante", "tipo": "Uso general" } ]
   },
   "Nitrix": {
@@ -224,6 +226,12 @@
     ]
   },
   "Tami": {
+    "Cubiertos": [
+      { "producto": "Cuchillo", "tamaños": ["Pequeño", "Mediano", "Grande"] },
+      { "producto": "Cuchara", "tamaños": ["Pequeño", "Mediano", "Grande"] }
+    ]
+  },
+  "Bistro": {
     "Cubiertos": [
       { "producto": "Cuchillo", "tamaños": ["Pequeño", "Mediano", "Grande"] },
       { "producto": "Cuchara", "tamaños": ["Pequeño", "Mediano", "Grande"] }
