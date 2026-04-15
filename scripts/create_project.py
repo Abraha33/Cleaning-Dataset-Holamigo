@@ -3,7 +3,8 @@ import requests
 # ============================================
 # CONFIGURACIÓN — solo cambia estos dos valores
 # ============================================
-GITHUB_TOKEN = "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"
+import os
+TOKEN = os.environ.get("GITHUB_TOKEN")
 OWNER        = "Abraha33"
 REPO         = "Cleaning-Dataset-Holamigo"
 # ============================================

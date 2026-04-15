@@ -11,3 +11,4 @@ env/
 *.pkl
 normalization_output/*
 !normalization_output/.gitkeep
+.env 
