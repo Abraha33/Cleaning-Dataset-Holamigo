@@ -1,21 +1,22 @@
-﻿# Product Data Platform 🚀
+﻿# Product Data Platform 🚀 ![https://github.com/Abraha33/Cleaning-Dataset-Holamigo/actions/workflows/ci.yml/badge.svg](https://github.com/Abraha33/Cleaning-Dataset-Holamigo/actions/workflows/ci.yml)
 
-Plataforma de gestión y normalización de catálogos de productos.
+Plataforma profesional de gestión y normalización de catálogos de productos.
 
-## 📂 Estructura del Monorepo
-- pps/api: Backend NestJS + Prisma 7.
-- packages/data-tools: Scripts de normalización (Legacy Python).
-- infra: Configuraciones de Docker y CI/CD.
+## 🏗️ Arquitectura
+- **apps/api**: Backend NestJS + Prisma 7 (Modular Monolith).
+- **packages/data-tools**: Scripts de normalización (Legacy Python).
+- **infra**: Configuraciones de Docker y CI/CD.
 
-## 🛠️ Requisitos
-- Node.js v22+
-- pnpm v10+
-- Docker Desktop
+## 🏁 Quick Start
+1. `pnpm install`
+2. `docker-compose up -d`
+3. `cd apps/api && pnpm prisma db push`
 
-## 🏁 Instalación
-1. pnpm install
-2. docker-compose up -d
-3. cd apps/api && pnpm prisma db push
+## 🛠️ Scripts Principales (Root)
+- `pnpm lint`: Valida estilo de código.
+- `pnpm typecheck`: Valida tipos de TypeScript.
+- `pnpm test`: Ejecuta pruebas unitarias y de integración.
+- `pnpm build`: Compila todas las aplicaciones.
 
-## 📜 Licencia
-Privado - Todos los derechos reservados.
+---
+© 2026 - Product Data Platform Team

@@ -12,14 +12,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: 'pnpm' # Velocidad: Usa caché para node_modules
       - uses: pnpm/action-setup@v4
         with:
           version: 10
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install --frozen-lockfile # Estabilidad: Respeta el lockfile exacto
       - name: Lint
         run: pnpm lint
       - name: Typecheck
         run: pnpm typecheck
+      - name: Test
+        run: pnpm test --if-present # Seguridad: Valida la lógica
       - name: Build
         run: pnpm build
