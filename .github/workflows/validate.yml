@@ -1,20 +1,20 @@
 name: CI Pipeline
 on:
-  pull_request:
-    branches: [main, develop]
   push:
     branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
 jobs:
   validate:
+    name: Validation Pipeline
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v4
         with:
           version: 10
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'pnpm'
@@ -22,9 +22,7 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Prisma Generate
         run: cd apps/api && pnpm dlx prisma generate
+      - name: Lint
+        run: pnpm lint
       - name: Build
         run: pnpm build
-      - name: Lint
-        run: pnpm lint || echo 'Lint issues found'
-      - name: Typecheck
-        run: pnpm -r exec tsc --noEmit

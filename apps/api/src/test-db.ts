@@ -1,13 +1,20 @@
-import { PrismaClient } from '@prisma/client';
+ï»¿import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
 async function main() {
-  const prisma = new PrismaClient();
   try {
     await prisma.$connect();
-    console.log('? Conexión exitosa a PostgreSQL en puerto 5435');
-  } catch (e) {
-    console.error('? Error de conexión:', e.message);
+    console.log('Database connection successful');
+  } catch (error) {
+    if (error instanceof Error) {
+      console.error('Connection failed:', error.message);
+    } else {
+      console.error('An unexpected error occurred:', error);
+    }
   } finally {
     await prisma.$disconnect();
   }
 }
-void void main();
+
+void main();
