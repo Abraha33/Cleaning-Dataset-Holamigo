@@ -1,10 +1,7 @@
-node_modules/
-.venv/
+﻿node_modules/
+dist/
 .env
+.prisma/
 *.log
 .DS_Store
-/dist
-/build
-# Firebase/Supabase keys
-service-account.json
-.vercel
+packages/data-tools/normalization_output/
