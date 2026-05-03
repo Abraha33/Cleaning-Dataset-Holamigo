@@ -9,20 +9,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
           version: 10
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: 'pnpm'
-      - name: Install
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Prisma
+      - name: Prisma Generate
         run: cd apps/api && pnpm dlx prisma generate
       - name: Build
         run: pnpm build
       - name: Lint
-        run: pnpm lint || echo 'Lint warnings detected'
+        run: pnpm lint || echo 'Lint failed, fixing later'
       - name: Typecheck
         run: pnpm -r exec tsc --noEmit
