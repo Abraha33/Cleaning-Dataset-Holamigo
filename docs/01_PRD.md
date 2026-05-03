@@ -1,9 +1,10 @@
-﻿# Product Requirements Document (PRD)
+﻿# 📄 Product Requirements Document (PRD)
 
-## Objetivo
-Definir la plataforma de datos de producto...
+## 🎯 Objetivo
+Desarrollar una plataforma robusta para la gestión, limpieza y centralización de datos de productos (PIM - Product Information Management).
 
-## Funcionalidades Clave
-- CRUD de Productos
-- Gestión de Marcas y Categorías
-- Atributos dinámicos
+## 🚀 Funcionalidades Clave (MVP)
+- **Gestión de Entidades:** CRUD completo de Productos, Marcas y Categorías.
+- **Normalización de Datos:** Atributos dinámicos mediante JSONB.
+- **Integridad:** Validación estricta de esquemas y relaciones.
+- **Escalabilidad:** Arquitectura lista para integraciones externas.
