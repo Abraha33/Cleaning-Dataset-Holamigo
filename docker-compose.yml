@@ -8,7 +8,7 @@
       POSTGRES_PASSWORD: password
       POSTGRES_DB: product_data_platform
     ports:
-      - "5432:5432"
+      - "5435:5432"  # Usaremos el 5435 para evitar conflictos
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
@@ -16,7 +16,7 @@
     image: redis:alpine
     container_name: pdp-cache-local
     ports:
-      - "6379:6379"
+      - "6380:6379"  # Usaremos el 6380
 
 volumes:
   postgres_data:
