@@ -1,40 +1,34 @@
-# ADR 003 — PostgreSQL gestionado (Supabase) como objetivo de despliegue
+# ADR 003 — Managed PostgreSQL (Supabase) as deployment target
 
-## Estado
+## Context
 
-Propuesto / en adopción parcial (variables documentadas; conexión runtime de la API aún acoplada a Docker local).
+The team needs managed PostgreSQL (backups, networking, connection pooling) compatible with Prisma, with optional use of the broader Supabase stack (storage, anon keys) for a future admin UI and integrations. Local development must remain possible without cloud dependency.
 
-## Contexto
+## Decision
 
-El equipo necesita PostgreSQL administrado (backups, red, pooler) compatible con Prisma y con posible uso de storage y claves para el futuro frontend o auth.
+- Document in **`.env.example`** (repo root):
+  - `DATABASE_URL` using the **Supabase pooler** (typical port `6543`) for application traffic.
+  - `DIRECT_URL` for direct connections when Prisma or tooling requires it (e.g. migrations).
+  - `SUPABASE_URL` and `SUPABASE_KEY` for future Supabase client usage.
+- Keep **Docker Compose** with PostgreSQL 15 for local development (`docker-compose.yml`).
 
-## Decisión
+## Consequences
 
-- Documentar en **`.env.example`** en la raíz del repositorio:
-  - `DATABASE_URL` con **PgBouncer** (puerto pooler típico 6543) para tráfico de aplicación.
-  - `DIRECT_URL` para operaciones que requieren conexión directa (p. ej. migraciones Prisma).
-  - `SUPABASE_URL` y `SUPABASE_KEY` para integraciones del ecosistema Supabase cuando se implementen.
-- Mantener **Docker Compose** con Postgres 15 para desarrollo local sin dependencia de cloud.
+**Positive**
 
-## Consecuencias
+- Same engine locally and in the cloud target.
+- Pooler reduces connection churn when the API scales horizontally.
 
-### Positivas
+**Negative**
 
-- Misma familia de motor (PostgreSQL) entre local y cloud.
-- Pooler reduce presión de conexiones en despliegues con muchas instancias de API.
+- Until the Nest `PrismaService` reads `DATABASE_URL` from the environment, local hardcoded URLs and documented Supabase URLs can diverge and confuse onboarding.
+- Prisma + Supabase pooler requires attention to [transaction and connection modes](https://www.prisma.io/docs/guides/database/supabase) as documented by Prisma and Supabase when going to production.
 
-### Negativas / riesgos
+## Alternatives Considered
 
-- Hasta que `PrismaService` lea `DATABASE_URL`, el riesgo de configuración divergente (local hardcoded vs Supabase) es real.
-- Deben respetarse [limitaciones de transacción / prepared statements](https://www.prisma.io/docs/guides/database/supabase) según versión Prisma y modo pooler (documentación oficial del proveedor al implementar).
+- **RDS, Cloud SQL, Neon, etc.:** Sufficient if only Postgres is required; Supabase adds adjacent products the project may adopt later.
+- **Docker-only production:** Acceptable for a strictly internal MVP; weaker fit for typical PIM uptime expectations.
 
-## Alternativas
+---
 
-- **RDS / Cloud SQL / Neon:** equivalentes para solo Postgres; Supabase añade productos colaterales que el proyecto podría usar más adelante.
-- **Solo Docker en producción:** válido para MVP interno; no escala con el SLA típico de PIM.
-
-## Referencias
-
-- `.env.example`
-- `docker-compose.yml` (servicio `postgres`)
-- `docs/02_ARCHITECTURE.md` (flujo producción)
+*References: `.env.example`, `docker-compose.yml`, `docs/02_ARCHITECTURE.md`.*

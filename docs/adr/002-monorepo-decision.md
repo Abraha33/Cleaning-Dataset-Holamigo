@@ -1,38 +1,32 @@
-# ADR 002 — Monorepo con pnpm workspaces
+# ADR 002 — Monorepo with pnpm workspaces
 
-## Estado
+## Context
 
-Aceptado.
+The product combines a TypeScript API and data tooling (Python scripts, CSV masters, normalization workflows) that should stay in one repository for traceability, single versioning, and small-team onboarding.
 
-## Contexto
+## Decision
 
-El producto combina una API TypeScript y herramientas de datos (scripts, CSV, legado Python) que deben vivir en un solo repositorio para trazabilidad y versionado unificado.
+- **Package manager:** pnpm with workspaces.
+- **Workspace layout:** `pnpm-workspace.yaml` includes `apps/*` and `packages/*`.
+- **Current packages:** `apps/api` (NestJS application); `packages/data-tools` (normalization assets and legacy Python — not a published Node library consumed by the API today).
 
-## Decisión
+## Consequences
 
-- **Gestor de paquetes:** pnpm (workspace).
-- **Definición de workspaces:** `pnpm-workspace.yaml` incluye `apps/*` y `packages/*`.
-- **Paquetes actuales:** `apps/api`; `packages/data-tools` (normalización y datos auxiliares, no empaquetado como librería consumida por la API en el estado actual).
+**Positive**
 
-## Consecuencias
+- Single `pnpm-lock.yaml`; CI uses `pnpm install --frozen-lockfile`.
+- Root scripts (`build`, `lint`, `typecheck`, `test`) can run across workspaces with `pnpm -r`.
 
-### Positivas
+**Negative**
 
-- Un `pnpm-lock.yaml` para reproducibilidad (reforzado por `--frozen-lockfile` en CI).
-- Scripts en raíz (`build`, `lint`, `typecheck`, `test`) pueden orquestar todos los workspaces con `pnpm -r`.
+- Python tooling under `packages/data-tools` is outside the Node dependency graph; developers need a separate virtualenv / `requirements.txt` workflow.
+- Without a shared TypeScript package, reuse between future `apps/*` is not yet formalized.
 
-### Negativas
+## Alternatives Considered
 
-- Los paquetes Python en `packages/data-tools` no participan del grafo Node; el equipo debe documentar su entorno (`requirements.txt`) aparte.
-- Sin paquete compartido TypeScript publicado aún, el monorepo es en la práctica “API + carpetas satélite”.
+- **Multi-repo:** Stronger isolation, higher cost to keep API and normalization rules in sync.
+- **npm or Yarn workspaces:** Equivalent capability; the repo already standardized on pnpm 10 in CI.
 
-## Alternativas
+---
 
-- **Multirepo:** más aislamiento, más costo de integración y versiones alineadas.
-- **npm / Yarn:** equivalentes; pnpm ya fijado en CI (`pnpm/action-setup@v4`, versión 10).
-
-## Referencias
-
-- `pnpm-workspace.yaml`
-- `package.json` (raíz)
-- `.github/workflows/ci.yml`
+*References: `pnpm-workspace.yaml`, root `package.json`, `.github/workflows/ci.yml`.*

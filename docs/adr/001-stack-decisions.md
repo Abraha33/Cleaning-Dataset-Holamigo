@@ -1,41 +1,36 @@
-# ADR 001 — Stack de aplicación y datos
+# ADR 001 — Application and data stack
 
-## Estado
+## Context
 
-Aceptado (refleja el repositorio actual).
+The platform needs a maintainable HTTP API with strong typing, relational access to PostgreSQL, and a single codebase integrated in a Node monorepo. The team prioritized fast iteration on catalog entities (brands, categories, products) with a clear persistence layer.
 
-## Contexto
+## Decision
 
-Se necesita una plataforma de datos de producto con API mantenible, tipado fuerte y acceso relacional a PostgreSQL, integrada en un monorepo Node.
+- **API runtime:** NestJS 11 (modular structure, dependency injection).
+- **Data access:** Prisma 7 with the JavaScript client and the **driver adapter** `@prisma/adapter-pg` on top of the `pg` driver and a connection pool.
+- **Database:** PostgreSQL 15 for local development (Docker); environment variables in `.env.example` target **Supabase** (pooler + direct URL for migrations).
+- **Language:** TypeScript in `apps/api`.
+- **Testing:** Jest; e2e via Supertest (minimal coverage today).
 
-## Decisión
+## Consequences
 
-- **Runtime API:** NestJS 11 (módulos, inyección de dependencias, ecosistema maduro).
-- **ORM:** Prisma 7 con cliente JavaScript y **driver adapter** `@prisma/adapter-pg` sobre el driver `pg`.
-- **Base de datos:** PostgreSQL 15 en desarrollo local; variables en `.env.example` orientadas a **Supabase** (pooler + URL directa para migraciones).
-- **Lenguaje:** TypeScript en `apps/api`.
-- **Tests:** Jest + Supertest para e2e básico.
+**Positive**
 
-## Consecuencias
+- Generated types from the schema (`@prisma/client`).
+- Clear split between HTTP layer and persistence.
+- Driver adapter aligns with managed pools and future deployment constraints.
 
-### Positivas
+**Negative**
 
-- Tipos generados desde el schema (`@prisma/client`).
-- Separación clara entre capa HTTP y persistencia.
-- Adapter oficial prepara el terreno para entornos serverless o pools gestionados.
+- Possible duplicate Prisma config (`prisma.config.ts` at repo root and under `apps/api`) until consolidated.
+- `PrismaService` currently does not read `DATABASE_URL` from the environment (implementation debt; see `003-supabase-decision.md`).
 
-### Negativas / deuda
+## Alternatives Considered
 
-- Configuración duplicada potencial (`prisma.config.ts` en raíz del monorepo y en `apps/api`); debe consolidarse con criterio de equipo.
-- `PrismaService` actual no consume aún las variables documentadas en `.env.example`.
+- **TypeORM or Drizzle:** Valid options; Prisma was kept for declarative schema and productivity already reflected in the repo.
+- **Raw `pg` only:** More control, less velocity for schema evolution and migrations.
+- **REST vs GraphQL for v1:** REST matches current Nest controllers; GraphQL deferred unless product demands it.
 
-## Alternativas consideradas (implícitas)
+---
 
-- **TypeORM / Drizzle:** viables; Prisma se eligió por productividad y modelo declarativo ya presente en el repo.
-- **Cliente pg directo:** más control, menos productividad para evolución de esquema.
-
-## Referencias
-
-- `apps/api/package.json`
-- `apps/api/prisma/schema.prisma`
-- `apps/api/src/prisma/prisma.service.ts`
+*References: `apps/api/package.json`, `apps/api/prisma/schema.prisma`, `apps/api/src/prisma/prisma.service.ts`.*
