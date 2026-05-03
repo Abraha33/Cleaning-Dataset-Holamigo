@@ -8,7 +8,3 @@ node_modules/
 # Firebase/Supabase keys
 service-account.json
 .vercel
-
-.venv/
-
-.venv/
