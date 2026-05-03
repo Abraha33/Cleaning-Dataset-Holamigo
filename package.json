@@ -13,6 +13,13 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "husky": "^9.1.7",
+    "prisma": "^7.8.0",
     "typescript-eslint": "^8.59.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.8.0",
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.105.1",
+    "dotenv": "^17.4.2"
   }
 }
