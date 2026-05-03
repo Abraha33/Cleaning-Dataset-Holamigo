@@ -1,0 +1,7 @@
+﻿# Reglas de Proyecto: Product Data Platform
+
+- Stack: NestJS (Backend), Prisma 7 (ORM), Supabase (DB).
+- Arquitectura: Monorepo con pnpm. La API vive en /apps/api.
+- Database: No usar 'url' en schema.prisma. Usar prisma.config.ts.
+- Estilo: TypeScript estricto, PascalCase para clases, kebab-case para archivos.
+- Commits: Seguir Conventional Commits (feat, fix, chore, docs).
