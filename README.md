@@ -1,22 +1,22 @@
-# Product Data Platform ?? ![https://github.com/Abraha33/product-data-platform/actions/workflows/ci.yml/badge.svg](https://github.com/Abraha33/product-data-platform/actions/workflows/ci.yml)
+ï»¿# ğŸ“¦ Product Data Platform
 
-Plataforma profesional de gestión y normalización de catálogos de productos.
+Plataforma profesional para la gestiÃ³n, normalizaciÃ³n y centralizaciÃ³n de datos de productos (PIM).
 
-## ??? Arquitectura
-- **apps/api**: Backend NestJS + Prisma 7 (Modular Monolith).
-- **packages/data-tools**: Scripts de normalización (Legacy Python).
-- **infra**: Configuraciones de Docker y CI/CD.
+## ğŸš€ Quick Start
+1. **Instalar dependencias:** pnpm install
+2. **Levantar infraestructura:** docker-compose up -d
+3. **Sincronizar DB:** cd apps/api && pnpm dlx prisma db push
+4. **Arrancar modo dev:** pnpm run start:dev
 
-## ?? Quick Start
-1. `pnpm install`
-2. `docker-compose up -d`
-3. `cd apps/api && pnpm prisma db push`
+## ğŸ—ï¸ Arquitectura
+- **Monorepo:** PNPM Workspaces.
+- **Backend:** NestJS + Prisma + Driver Adapters.
+- **Base de Datos:** PostgreSQL (Docker/Supabase).
 
-## ??? Scripts Principales (Root)
-- `pnpm lint`: Valida estilo de código.
-- `pnpm typecheck`: Valida tipos de TypeScript.
-- `pnpm test`: Ejecuta pruebas unitarias y de integración.
-- `pnpm build`: Compila todas las aplicaciones.
+## ğŸ› ï¸ Scripts Principales
+- pnpm build: Compila todo el proyecto.
+- pnpm lint: Verifica estÃ¡ndares de cÃ³digo.
+- pnpm test: Ejecuta la suite de pruebas.
 
 ---
-© 2026 - Product Data Platform Team
+ğŸš€ *Entorno auditado y listo para Product Engineering Phase.*
