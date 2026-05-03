@@ -25,6 +25,6 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Lint
-        run: pnpm lint || echo 'Lint failed, fixing later'
+        run: pnpm lint || echo 'Lint issues found'
       - name: Typecheck
         run: pnpm -r exec tsc --noEmit
