@@ -3,9 +3,21 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { PrismaService } from './prisma/prisma.service';
 import { ProductsModule } from './products/products.module';
+import { AuthModule } from './auth/auth.module';
+import { UsersModule } from './users/users.module';
+import { BatchesModule } from './batches/batches.module';
+import { DictionariesModule } from './dictionaries/dictionaries.module';
+import { ExportsModule } from './exports/exports.module';
 
 @Module({
-  imports: [ProductsModule],
+  imports: [
+    ProductsModule,
+    AuthModule,
+    UsersModule,
+    BatchesModule,
+    DictionariesModule,
+    ExportsModule,
+  ],
   controllers: [AppController],
   providers: [AppService, PrismaService],
 })
