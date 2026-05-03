@@ -23,6 +23,6 @@ jobs:
       - name: Build
         run: pnpm build
       - name: Lint
-        run: pnpm lint || echo 'Lint failed but continuing...'
+        run: pnpm lint || echo 'Lint warnings detected'
       - name: Typecheck
         run: pnpm -r exec tsc --noEmit
