@@ -8,15 +8,41 @@ datasource db {
 
 model Product {
   id          String   @id @default(uuid())
+  sku         String   @unique
   name        String
   description String?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  price       Decimal  @default(0.0)
+  stock       Int      @default(0)
+  
+  // Atributos din?micos (ej: {"color": "rojo", "talla": "XL"})
+  attributes  Json?    @default("{}")
+
+  // Relaciones
+  brand       Brand    @relation(fields: [brandId], references: [id])
+  brandId     String
   category    Category @relation(fields: [categoryId], references: [id])
   categoryId  String
+
+  // Auditor?a
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([sku])
 }
 
 model Category {
+  id        String    @id @default(uuid())
+  name      String    @unique
+  slug      String    @unique
+  products  Product[]
+  
+  // Para jerarqu?as (Categor?a padre/hijo)
+  parentId  String?
+  parent    Category?  @relation("SubCategories", fields: [parentId], references: [id])
+  children  Category[] @relation("SubCategories")
+}
+
+model Brand {
   id       String    @id @default(uuid())
   name     String    @unique
   products Product[]

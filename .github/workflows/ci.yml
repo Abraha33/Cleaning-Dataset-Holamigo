@@ -1,18 +1,36 @@
 ﻿name: CI Pipeline
+
 on:
   pull_request:
-    branches: [develop, main]
+    branches: [main, develop]
   push:
-    branches: [develop]
+    branches: [main, develop]
 
 jobs:
-  build-and-test:
-    runs-with: ubuntu-latest
+  validate:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Install Dependencies
-        run: echo "Instalando dependencias..."
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
       - name: Lint
-        run: echo "Ejecutando Linter..."
-      - name: Test
-        run: echo "Ejecutando Pruebas..."
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build
+        run: pnpm build
