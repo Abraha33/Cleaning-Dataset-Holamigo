@@ -14,6 +14,7 @@ enum Role {
   ADMIN
   SUPERVISOR
   LABELER
+  REVIEWER
 }
 
 enum ProductStatus {
@@ -27,13 +28,14 @@ enum ProductStatus {
 // --- Core domain ---
 
 model User {
-  id        String     @id @default(uuid())
-  email     String     @unique
-  name      String?
-  role      Role       @default(LABELER)
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-  auditLogs AuditLog[]
+  id           String     @id @default(uuid())
+  email        String     @unique
+  name         String?
+  passwordHash String
+  role         Role       @default(LABELER)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  auditLogs    AuditLog[]
 }
 
 /// Lotes de trabajo (jornadas, campañas, colas de revisión).
