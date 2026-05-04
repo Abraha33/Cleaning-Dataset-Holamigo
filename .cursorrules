@@ -1,0 +1,14 @@
+# Product Data Platform — reglas para el agente
+
+## Ubicación del backend
+
+- El backend NestJS vive siempre en **`apps/api`**. Cualquier comando de desarrollo, Prisma, tests o lint orientado al API debe asumirse relativo a esa carpeta salvo que se indique lo contrario.
+
+## Prisma
+
+- Este proyecto usa **Prisma v6** (alinear versiones de `prisma` y `@prisma/client` con 6.x).
+- Los cambios de esquema, `db push`, `migrate`, `generate` y seeds se ejecutan desde **`apps/api`** con las variables de entorno cargadas desde **`apps/api/.env`**.
+
+## TypeScript y calidad de código
+
+- **`any` está prohibido** en este monorepo. Usar tipos explícitos: DTOs de NestJS, tipos generados por Prisma (`Prisma.*`, modelos de `@prisma/client`), utilidades de TypeScript (`unknown` + narrowing) o interfaces compartidas en `packages/` cuando aplique.
