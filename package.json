@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "product-data-platform-root",
+  "scripts": {
+    "prepare": "husky",
+    "dev": "pnpm -F api dev",
+    "dev:api": "pnpm -F api dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test --if-present",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prisma:generate": "pnpm -F api prisma generate",
+    "prisma:validate": "pnpm -F api prisma validate",
+    "prisma:migrate": "pnpm -F api prisma migrate dev",
+    "prisma:push": "pnpm -F api prisma db push",
+    "prisma:studio": "pnpm -F api prisma studio"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^17.6.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.59.1"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.105.1",
+    "dotenv": "^17.4.2"
+  }
+}

@@ -1,0 +1,3 @@
+imagenes()
+datos (toma de datos)
+casos de uso ()

@@ -1,0 +1,22 @@
+﻿services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: pdp-db-local
+    restart: always
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: product_data_platform
+    ports:
+      - "5435:5432"  # Usaremos el 5435 para evitar conflictos
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:alpine
+    container_name: pdp-cache-local
+    ports:
+      - "6380:6379"  # Usaremos el 6380
+
+volumes:
+  postgres_data:

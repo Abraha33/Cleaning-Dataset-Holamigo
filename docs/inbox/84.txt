@@ -1,0 +1,13 @@
+M1 Foundation Stabilization
+M2 Product Catalog MVP
+M3 Auth + Governance
+M4 Media + Imports
+M5 MVP Release
+
+schema.prisma completo
+.env.example
+GitHub Actions CI
+branch protection
+husky + lint-staged
+auth + RBAC
+migrations

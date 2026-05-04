@@ -1,0 +1,122 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// --- Enums ---
+
+enum Role {
+  ADMIN
+  SUPERVISOR
+  LABELER
+  REVIEWER
+}
+
+enum ProductStatus {
+  PENDING_PHOTO
+  PHOTO_DONE
+  PENDING_TAGGING
+  READY_REVIEW
+  APPROVED
+}
+
+// --- Core domain ---
+
+model User {
+  id           String     @id @default(uuid())
+  email        String     @unique
+  name         String?
+  passwordHash String
+  role         Role       @default(LABELER)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  auditLogs    AuditLog[]
+}
+
+/// Lotes de trabajo (jornadas, campañas, colas de revisión).
+model Batch {
+  id          String    @id @default(uuid())
+  name        String
+  description String?
+  category    String?
+  sessionDate DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  products    Product[]
+
+  @@index([category])
+  @@index([sessionDate])
+}
+
+model Product {
+  id          String         @id @default(uuid())
+  batchId     String
+  batch       Batch          @relation(fields: [batchId], references: [id], onDelete: Restrict)
+  sku         String         @unique
+  name        String?
+  status      ProductStatus  @default(PENDING_PHOTO)
+  /// Valores de atributos dinámicos (códigos de Dictionary -> valor elegido o texto libre).
+  attributesData Json?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  images      ProductImage[]
+
+  @@index([batchId])
+  @@index([status])
+}
+
+/// Metadatos de imagen almacenada en S3 (u objeto compatible).
+model ProductImage {
+  id         String   @id @default(uuid())
+  productId  String
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  s3Bucket   String
+  s3Key      String
+  s3Region   String?
+  etag       String?
+  mimeType   String?
+  sizeBytes  Int?
+  width      Int?
+  height     Int?
+  sortOrder  Int      @default(0)
+  isPrimary  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([productId, s3Key])
+  @@index([productId, sortOrder])
+}
+
+/// Catálogo de atributos dinámicos y valores permitidos (validación en aplicación).
+model Dictionary {
+  id             String   @id @default(uuid())
+  code           String   @unique
+  name           String
+  description    String?
+  /// Lista de entradas permitidas, p. ej. [{ "code": "red", "label": "Rojo" }, ...]
+  allowedValues  Json?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action     String
+  entityType String
+  entityId   String?
+  metadata   Json?
+  ip         String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([userId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
