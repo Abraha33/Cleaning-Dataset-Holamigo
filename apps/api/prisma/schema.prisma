@@ -7,3 +7,136 @@ datasource db {
   url       = env("DATABASE_URL")
   directUrl = env("DIRECT_URL")
 }
+
+// --- Enums ---
+
+enum Role {
+  ADMIN
+  SUPERVISOR
+  LABELER
+  REVIEWER
+}
+
+enum ProductStatus {
+  PENDING
+  IN_PROGRESS
+  READY_REVIEW
+  APPROVED
+  REJECTED
+}
+
+// --- Core domain ---
+
+model User {
+  id        String     @id @default(uuid())
+  email     String     @unique
+  name      String?
+  role      Role       @default(LABELER)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  auditLogs AuditLog[]
+}
+
+model Batch {
+  id          String    @id @default(uuid())
+  name        String
+  description String?
+  /// Agrupa por categoría operativa (ej. línea, campaña).
+  category    String?
+  /// Jornada o ventana de trabajo asociada al lote.
+  sessionDate DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  products    Product[]
+
+  @@index([category])
+  @@index([sessionDate])
+}
+
+model Product {
+  id          String          @id @default(uuid())
+  batchId     String
+  batch       Batch           @relation(fields: [batchId], references: [id], onDelete: Restrict)
+  sku         String          @unique
+  name        String?
+  /// Payload de importación / fuente (JSON arbitrario).
+  rawPayload  Json?
+  /// Campos de texto crudos adicionales (título, descripción de catálogo, etc.).
+  rawTitle    String?
+  rawBody     String?
+  status      ProductStatus   @default(PENDING)
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+  attributes  ProductAttribute[]
+
+  @@index([batchId])
+  @@index([status])
+}
+
+/// Etiquetas o atributos extraídos para un producto; pueden enlazar a diccionario controlado.
+model ProductAttribute {
+  id                String            @id @default(uuid())
+  productId         String
+  product           Product           @relation(fields: [productId], references: [id], onDelete: Cascade)
+  /// Clave semántica del atributo (ej. color, marca).
+  attributeKey      String
+  dictionaryId      String?
+  dictionary        Dictionary?       @relation(fields: [dictionaryId], references: [id], onDelete: SetNull)
+  dictionaryValueId String?
+  dictionaryValue   DictionaryValue?  @relation(fields: [dictionaryValueId], references: [id], onDelete: SetNull)
+  /// Texto crudo devuelto por extracción / OCR antes de normalizar.
+  extractedRaw      String?
+  /// Valor libre si aún no mapea a un DictionaryValue.
+  valueText         String?
+  confidence        Float?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+
+  @@index([productId])
+  @@index([dictionaryId])
+  @@index([dictionaryValueId])
+}
+
+model Dictionary {
+  id          String              @id @default(uuid())
+  code        String              @unique
+  name        String
+  description String?
+  createdAt   DateTime            @default(now())
+  updatedAt   DateTime            @updatedAt
+  values      DictionaryValue[]
+  attributes  ProductAttribute[]
+}
+
+model DictionaryValue {
+  id           String             @id @default(uuid())
+  dictionaryId String
+  dictionary   Dictionary         @relation(fields: [dictionaryId], references: [id], onDelete: Cascade)
+  code         String
+  label        String
+  sortOrder    Int                @default(0)
+  active       Boolean            @default(true)
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+  attributes   ProductAttribute[]
+
+  @@unique([dictionaryId, code])
+  @@index([dictionaryId])
+}
+
+model AuditLog {
+  id         String   @id @default(uuid())
+  userId     String?
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  action     String
+  entityType String
+  entityId   String?
+  metadata   Json?
+  ip         String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([userId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}

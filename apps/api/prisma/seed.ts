@@ -1,1 +1,11 @@
-﻿import { PrismaClient } from '@prisma/client'; const prisma = new PrismaClient(); async function main() { console.log('🌱 Seed iniciado...'); const b = await prisma.brand.upsert({ where: { name: 'Ecoplast' }, update: {}, create: { name: 'Ecoplast' } }); const c = await prisma.category.upsert({ where: { slug: 'test' }, update: {}, create: { name: 'Test', slug: 'test' } }); console.log('✅ BÚNKER VERIFICADO:', b.name, c.name); } main().catch(e => console.error(e)).finally(() => prisma.$disconnect());
+import { PrismaClient } from '@prisma/client'; 
+const prisma = new PrismaClient(); 
+
+async function main() { 
+  console.log('��� Seed iniciado...'); 
+  console.log('✅ BÚNKER VERIFICADO: Esquema limpio listo.'); 
+} 
+
+main()
+  .catch(e => console.error(e))
+  .finally(() => prisma.$disconnect());
