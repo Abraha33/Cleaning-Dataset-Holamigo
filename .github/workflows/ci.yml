@@ -28,6 +28,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      # ESTE ES EL PASO CRÍTICO QUE FALTA
+      - name: Generate Prisma Client
+        run: pnpm -F api prisma generate
+
       - name: Lint check
         run: pnpm lint
 
