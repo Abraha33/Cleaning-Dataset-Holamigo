@@ -1,28 +1,58 @@
-﻿import { Injectable } from '@nestjs/common';
-import { PrismaService } from '../prisma/prisma.service';
+import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
+import { PrismaService } from '../prisma/prisma.service';
+
+const productInclude = {
+  batch: true,
+  attributes: {
+    include: {
+      dictionary: true,
+      dictionaryValue: true,
+    },
+  },
+} satisfies Prisma.ProductInclude;
+
+export type ProductWithRelations = Prisma.ProductGetPayload<{
+  include: typeof productInclude;
+}>;
 
 @Injectable()
 export class ProductsService {
   constructor(private prisma: PrismaService) {}
 
-  async create(data: Prisma.ProductCreateInput) {
-    return this.prisma.product.create({ data });
+  create(data: Prisma.ProductCreateInput) {
+    return this.prisma.product.create({
+      data,
+      include: productInclude,
+    });
   }
 
-  async findAll() {
-    return this.prisma.product.findMany();
+  findAll(): Promise<ProductWithRelations[]> {
+    return this.prisma.product.findMany({
+      include: productInclude,
+      orderBy: { updatedAt: 'desc' },
+    });
   }
 
-  async findOne(id: number) {
-    return this.prisma.product.findUnique({ where: { id } });
+  findOne(id: string): Promise<ProductWithRelations | null> {
+    return this.prisma.product.findUnique({
+      where: { id },
+      include: productInclude,
+    });
   }
 
-  async update(id: number, data: Prisma.ProductUpdateInput) {
-    return this.prisma.product.update({ where: { id }, data });
+  update(id: string, data: Prisma.ProductUpdateInput) {
+    return this.prisma.product.update({
+      where: { id },
+      data,
+      include: productInclude,
+    });
   }
 
-  async remove(id: number) {
-    return this.prisma.product.delete({ where: { id } });
+  remove(id: string) {
+    return this.prisma.product.delete({
+      where: { id },
+      include: productInclude,
+    });
   }
 }
