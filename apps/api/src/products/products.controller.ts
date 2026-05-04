@@ -1,14 +1,6 @@
-import {
-  Controller,
-  Get,
-  Post,
-  Body,
-  Patch,
-  Param,
-  Delete,
-} from '@nestjs/common';
-import { Prisma } from '@prisma/client';
-import { ProductsService } from './products.service';
+import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common'
+import { Prisma } from '@prisma/client'
+import { ProductsService } from './products.service'
 
 @Controller('products')
 export class ProductsController {
@@ -16,29 +8,26 @@ export class ProductsController {
 
   @Post()
   create(@Body() createProductDto: Prisma.ProductCreateInput) {
-    return this.productsService.create(createProductDto);
+    return this.productsService.create(createProductDto)
   }
 
   @Get()
   findAll() {
-    return this.productsService.findAll();
+    return this.productsService.findAll()
   }
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.productsService.findOne(id);
+    return this.productsService.findOne(id)
   }
 
   @Patch(':id')
-  update(
-    @Param('id') id: string,
-    @Body() updateProductDto: Prisma.ProductUpdateInput,
-  ) {
-    return this.productsService.update(id, updateProductDto);
+  update(@Param('id') id: string, @Body() updateProductDto: Prisma.ProductUpdateInput) {
+    return this.productsService.update(id, updateProductDto)
   }
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.productsService.remove(id);
+    return this.productsService.remove(id)
   }
 }

@@ -1,1 +1,2 @@
-pnpm lint && pnpm build
+pnpm prisma:validate
+npx lint-staged

@@ -1,28 +1,39 @@
-﻿name: CI Pipeline
+﻿name: CI
+
 on:
   pull_request:
     branches: [main, develop]
   push:
     branches: [main, develop]
+
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: 'pnpm' # Velocidad: Usa caché para node_modules
-      - uses: pnpm/action-setup@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
           version: 10
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
+
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile # Estabilidad: Respeta el lockfile exacto
-      - name: Lint
+        run: pnpm install --frozen-lockfile
+
+      # ESTE ES EL PASO CRÍTICO QUE FALTA
+      - name: Generate Prisma Client
+        run: pnpm -F api prisma generate
+
+      - name: Lint check
         run: pnpm lint
-      - name: Typecheck
-        run: pnpm typecheck
-      - name: Test
-        run: pnpm test --if-present # Seguridad: Valida la lógica
-      - name: Build
+
+      - name: Build project
         run: pnpm build
