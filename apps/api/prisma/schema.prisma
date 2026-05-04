@@ -14,15 +14,14 @@ enum Role {
   ADMIN
   SUPERVISOR
   LABELER
-  REVIEWER
 }
 
 enum ProductStatus {
-  PENDING
-  IN_PROGRESS
+  PENDING_PHOTO
+  PHOTO_DONE
+  PENDING_TAGGING
   READY_REVIEW
   APPROVED
-  REJECTED
 }
 
 // --- Core domain ---
@@ -32,18 +31,17 @@ model User {
   email     String     @unique
   name      String?
   role      Role       @default(LABELER)
-  createdAt DateTime   @default(now())
-  updatedAt DateTime   @updatedAt
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
   auditLogs AuditLog[]
 }
 
+/// Lotes de trabajo (jornadas, campañas, colas de revisión).
 model Batch {
   id          String    @id @default(uuid())
   name        String
   description String?
-  /// Agrupa por categoría operativa (ej. línea, campaña).
   category    String?
-  /// Jornada o ventana de trabajo asociada al lote.
   sessionDate DateTime?
   createdAt   DateTime  @default(now())
   updatedAt   DateTime  @updatedAt
@@ -54,74 +52,54 @@ model Batch {
 }
 
 model Product {
-  id          String          @id @default(uuid())
+  id          String         @id @default(uuid())
   batchId     String
-  batch       Batch           @relation(fields: [batchId], references: [id], onDelete: Restrict)
-  sku         String          @unique
+  batch       Batch          @relation(fields: [batchId], references: [id], onDelete: Restrict)
+  sku         String         @unique
   name        String?
-  /// Payload de importación / fuente (JSON arbitrario).
-  rawPayload  Json?
-  /// Campos de texto crudos adicionales (título, descripción de catálogo, etc.).
-  rawTitle    String?
-  rawBody     String?
-  status      ProductStatus   @default(PENDING)
-  createdAt   DateTime        @default(now())
-  updatedAt   DateTime        @updatedAt
-  attributes  ProductAttribute[]
+  status      ProductStatus  @default(PENDING_PHOTO)
+  /// Valores de atributos dinámicos (códigos de Dictionary -> valor elegido o texto libre).
+  attributesData Json?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  images      ProductImage[]
 
   @@index([batchId])
   @@index([status])
 }
 
-/// Etiquetas o atributos extraídos para un producto; pueden enlazar a diccionario controlado.
-model ProductAttribute {
-  id                String            @id @default(uuid())
-  productId         String
-  product           Product           @relation(fields: [productId], references: [id], onDelete: Cascade)
-  /// Clave semántica del atributo (ej. color, marca).
-  attributeKey      String
-  dictionaryId      String?
-  dictionary        Dictionary?       @relation(fields: [dictionaryId], references: [id], onDelete: SetNull)
-  dictionaryValueId String?
-  dictionaryValue   DictionaryValue?  @relation(fields: [dictionaryValueId], references: [id], onDelete: SetNull)
-  /// Texto crudo devuelto por extracción / OCR antes de normalizar.
-  extractedRaw      String?
-  /// Valor libre si aún no mapea a un DictionaryValue.
-  valueText         String?
-  confidence        Float?
-  createdAt         DateTime          @default(now())
-  updatedAt         DateTime          @updatedAt
+/// Metadatos de imagen almacenada en S3 (u objeto compatible).
+model ProductImage {
+  id         String   @id @default(uuid())
+  productId  String
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  s3Bucket   String
+  s3Key      String
+  s3Region   String?
+  etag       String?
+  mimeType   String?
+  sizeBytes  Int?
+  width      Int?
+  height     Int?
+  sortOrder  Int      @default(0)
+  isPrimary  Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
 
-  @@index([productId])
-  @@index([dictionaryId])
-  @@index([dictionaryValueId])
+  @@unique([productId, s3Key])
+  @@index([productId, sortOrder])
 }
 
+/// Catálogo de atributos dinámicos y valores permitidos (validación en aplicación).
 model Dictionary {
-  id          String              @id @default(uuid())
-  code        String              @unique
-  name        String
-  description String?
-  createdAt   DateTime            @default(now())
-  updatedAt   DateTime            @updatedAt
-  values      DictionaryValue[]
-  attributes  ProductAttribute[]
-}
-
-model DictionaryValue {
-  id           String             @id @default(uuid())
-  dictionaryId String
-  dictionary   Dictionary         @relation(fields: [dictionaryId], references: [id], onDelete: Cascade)
-  code         String
-  label        String
-  sortOrder    Int                @default(0)
-  active       Boolean            @default(true)
-  createdAt    DateTime           @default(now())
-  updatedAt    DateTime           @updatedAt
-  attributes   ProductAttribute[]
-
-  @@unique([dictionaryId, code])
-  @@index([dictionaryId])
+  id             String   @id @default(uuid())
+  code           String   @unique
+  name           String
+  description    String?
+  /// Lista de entradas permitidas, p. ej. [{ "code": "red", "label": "Rojo" }, ...]
+  allowedValues  Json?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
 }
 
 model AuditLog {
