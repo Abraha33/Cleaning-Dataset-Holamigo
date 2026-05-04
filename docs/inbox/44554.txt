@@ -1,0 +1,9 @@
+Local Dev
+→ feature/*
+→ PR to develop
+→ CI checks
+→ Preview Environment
+→ QA/UAT
+→ Merge develop
+→ Release PR to main
+→ Production Deploy
