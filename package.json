@@ -15,6 +15,9 @@
     "prisma:validate": "pnpm -F api prisma validate",
     "prisma:migrate": "pnpm -F api prisma migrate dev",
     "prisma:push": "pnpm -F api prisma db push",
+    "prisma:migrate:deploy": "pnpm -F api prisma migrate deploy",
+    "prisma:seed": "pnpm -F api prisma db seed",
+    "db:ready": "pnpm prisma:push && pnpm prisma:seed",
     "prisma:studio": "pnpm -F api prisma studio"
   },
   "devDependencies": {

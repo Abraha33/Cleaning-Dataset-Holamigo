@@ -1,7 +1,10 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common'
+import { ApiBearerAuth, ApiTags } from '@nestjs/swagger'
 import { Prisma } from '@prisma/client'
 import { ProductsService } from './products.service'
 
+@ApiTags('products')
+@ApiBearerAuth('bearer')
 @Controller('products')
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) {}

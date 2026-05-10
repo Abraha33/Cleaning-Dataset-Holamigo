@@ -1,0 +1,11 @@
+id nombre descripcion abreviatura
+M01 PET "Polietileno Tereftalato" PET
+M02 Polipropileno "PP - Apto para microondas" PP
+M03 Icopor "Poliestireno expandido (EPS)" EPS
+M04 Cartón "Cartón corrugado o microcorrugado" CAR
+M05 "Papel Kraft" "Papel de estraza natural" KRA
+M06 "Bagazo de Caña" "Fibra natural compostable" BCA
+M07 PLA "Ácido Poliláctico (Bioplástico)" PLA
+M08 Aluminio "Aluminio flexible o rígido" ALU
+M09 Madera "Madera natural astillada" MAD
+M10 Bambú "Fibra de bambú natural" BAM

@@ -20,6 +20,16 @@ async function bootstrap() {
     .setTitle('Product Data Platform API')
     .setDescription('API documentation')
     .setVersion('1.0.0')
+    .addBearerAuth(
+      {
+        type: 'http',
+        scheme: 'bearer',
+        bearerFormat: 'JWT',
+        in: 'header',
+      },
+      'bearer',
+    )
+    .addSecurityRequirements('bearer')
     .build()
 
   const swaggerDocument = SwaggerModule.createDocument(app, swaggerConfig)

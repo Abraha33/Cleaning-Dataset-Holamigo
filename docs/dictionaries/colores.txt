@@ -1,0 +1,11 @@
+id nombre abreviatura
+C01 Transparente TR
+C02 Blanco BL
+C03 Negro NG
+C04 Kraft KR
+C05 Natural NT
+C06 Rojo RJ
+C07 Azul AZ
+C08 Verde VD
+C09 Amarillo AM
+C10 Surtido ST
