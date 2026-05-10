@@ -1,0 +1,62 @@
+[
+  {
+    "id": "U01",
+    "type": "unit",
+    "value": "Onzas",
+    "normalized_value": "onzas"
+  },
+  {
+    "id": "U02",
+    "type": "unit",
+    "value": "Mililitros",
+    "normalized_value": "mililitros"
+  },
+  {
+    "id": "U03",
+    "type": "unit",
+    "value": "Litros",
+    "normalized_value": "litros"
+  },
+  {
+    "id": "U04",
+    "type": "unit",
+    "value": "Centímetros Cúbicos",
+    "normalized_value": "centimetros cubicos"
+  },
+  {
+    "id": "U05",
+    "type": "unit",
+    "value": "Centímetros",
+    "normalized_value": "centimetros"
+  },
+  {
+    "id": "U06",
+    "type": "unit",
+    "value": "Milímetros",
+    "normalized_value": "milimetros"
+  },
+  {
+    "id": "U07",
+    "type": "unit",
+    "value": "Pulgadas",
+    "normalized_value": "pulgadas"
+  },
+  {
+    "id": "U08",
+    "type": "unit",
+    "value": "Gramos",
+    "normalized_value": "gramos"
+  },
+  {
+    "id": "U09",
+    "type": "unit",
+    "value": "Kilogramos",
+    "normalized_value": "kilogramos"
+  },
+  {
+    "id": "U10",
+    "type": "unit",
+    "value": "Libras",
+    "normalized_value": "libras"
+  }
+]

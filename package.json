@@ -8,6 +8,7 @@
     "build": "pnpm -r build",
     "lint": "pnpm -r lint",
     "typecheck": "pnpm -r typecheck",
+    "typecheck:labeling": "tsc --noEmit -p tsconfig.src.json",
     "test": "pnpm -r test --if-present",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -21,6 +22,7 @@
     "prisma:studio": "pnpm -F api prisma studio"
   },
   "devDependencies": {
+    "@types/react": "^19.2.7",
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
     "@eslint/js": "^9.39.4",
@@ -31,12 +33,15 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.3",
+    "react": "^19.2.0",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.59.1"
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",
     "@supabase/supabase-js": "^2.105.1",
-    "dotenv": "^17.4.2"
+    "dotenv": "^17.4.2",
+    "xlsx": "^0.18.5",
+    "zustand": "^5.0.13"
   }
 }

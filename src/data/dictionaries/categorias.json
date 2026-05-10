@@ -1,0 +1,938 @@
+[
+  {
+    "id": "cat-0",
+    "type": "category",
+    "value": "Alimentos - Abarrotes",
+    "normalized_value": "alimentos - abarrotes"
+  },
+  {
+    "id": "cat-1",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Aceite",
+    "normalized_value": "alimentos - abarrotes - aceite"
+  },
+  {
+    "id": "cat-2",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Arroz",
+    "normalized_value": "alimentos - abarrotes - arroz"
+  },
+  {
+    "id": "cat-3",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Azucar",
+    "normalized_value": "alimentos - abarrotes - azucar"
+  },
+  {
+    "id": "cat-4",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Café",
+    "normalized_value": "alimentos - abarrotes - cafe"
+  },
+  {
+    "id": "cat-5",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Chocolate",
+    "normalized_value": "alimentos - abarrotes - chocolate"
+  },
+  {
+    "id": "cat-6",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Conservas / Enlatados / Envasados",
+    "normalized_value": "alimentos - abarrotes - conservas / enlatados / envasados"
+  },
+  {
+    "id": "cat-7",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Endulzantes",
+    "normalized_value": "alimentos - abarrotes - endulzantes"
+  },
+  {
+    "id": "cat-8",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Granos",
+    "normalized_value": "alimentos - abarrotes - granos"
+  },
+  {
+    "id": "cat-9",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Harina / Cereal",
+    "normalized_value": "alimentos - abarrotes - harina / cereal"
+  },
+  {
+    "id": "cat-10",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Margarinas",
+    "normalized_value": "alimentos - abarrotes - margarinas"
+  },
+  {
+    "id": "cat-11",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Pastas",
+    "normalized_value": "alimentos - abarrotes - pastas"
+  },
+  {
+    "id": "cat-12",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Sal",
+    "normalized_value": "alimentos - abarrotes - sal"
+  },
+  {
+    "id": "cat-13",
+    "type": "category",
+    "value": "Alimentos - Abarrotes - Salsas / Aderezos",
+    "normalized_value": "alimentos - abarrotes - salsas / aderezos"
+  },
+  {
+    "id": "cat-14",
+    "type": "category",
+    "value": "Alimentos - Bebidas",
+    "normalized_value": "alimentos - bebidas"
+  },
+  {
+    "id": "cat-15",
+    "type": "category",
+    "value": "Alimentos - Bebidas - Hidratantes",
+    "normalized_value": "alimentos - bebidas - hidratantes"
+  },
+  {
+    "id": "cat-16",
+    "type": "category",
+    "value": "Alimentos - Bebidas - Infusiones",
+    "normalized_value": "alimentos - bebidas - infusiones"
+  },
+  {
+    "id": "cat-17",
+    "type": "category",
+    "value": "Alimentos - Bebidas - Lácteos",
+    "normalized_value": "alimentos - bebidas - lacteos"
+  },
+  {
+    "id": "cat-18",
+    "type": "category",
+    "value": "Alimentos - Bebidas - Refrescos",
+    "normalized_value": "alimentos - bebidas - refrescos"
+  },
+  {
+    "id": "cat-19",
+    "type": "category",
+    "value": "Alimentos - Confiteria",
+    "normalized_value": "alimentos - confiteria"
+  },
+  {
+    "id": "cat-20",
+    "type": "category",
+    "value": "Alimentos - Confiteria - Galletas",
+    "normalized_value": "alimentos - confiteria - galletas"
+  },
+  {
+    "id": "cat-21",
+    "type": "category",
+    "value": "Alimentos - Confiteria - Gelatinas / Flan",
+    "normalized_value": "alimentos - confiteria - gelatinas / flan"
+  },
+  {
+    "id": "cat-22",
+    "type": "category",
+    "value": "Alimentos - Ingredientes Funcionales",
+    "normalized_value": "alimentos - ingredientes funcionales"
+  },
+  {
+    "id": "cat-23",
+    "type": "category",
+    "value": "Alimentos - Ingredientes Funcionales - Condimentos / Aliños",
+    "normalized_value": "alimentos - ingredientes funcionales - condimentos / alinos"
+  },
+  {
+    "id": "cat-24",
+    "type": "category",
+    "value": "Bolsas - Bolsas de papel",
+    "normalized_value": "bolsas - bolsas de papel"
+  },
+  {
+    "id": "cat-25",
+    "type": "category",
+    "value": "Bolsas - Bolsas de papel  - Bolsa de  Papel",
+    "normalized_value": "bolsas - bolsas de papel - bolsa de papel"
+  },
+  {
+    "id": "cat-26",
+    "type": "category",
+    "value": "Bolsas - Bolsas metalizadas",
+    "normalized_value": "bolsas - bolsas metalizadas"
+  },
+  {
+    "id": "cat-27",
+    "type": "category",
+    "value": "Bolsas - Bolsas metalizadas  - Bolsa Aluminio",
+    "normalized_value": "bolsas - bolsas metalizadas - bolsa aluminio"
+  },
+  {
+    "id": "cat-28",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas",
+    "normalized_value": "bolsas - bolsas plasticas"
+  },
+  {
+    "id": "cat-29",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Alta / Opaca",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa alta / opaca"
+  },
+  {
+    "id": "cat-30",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Aseo",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa aseo"
+  },
+  {
+    "id": "cat-31",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Blanca A / Lechosa",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa blanca a / lechosa"
+  },
+  {
+    "id": "cat-32",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Hermetica",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa hermetica"
+  },
+  {
+    "id": "cat-33",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Manija",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa manija"
+  },
+  {
+    "id": "cat-34",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Transparente  Baja",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa transparente baja"
+  },
+  {
+    "id": "cat-35",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Transparente Baja 1,5",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa transparente baja 1,5"
+  },
+  {
+    "id": "cat-36",
+    "type": "category",
+    "value": "Bolsas - Bolsas plasticas - Bolsa Vikingo",
+    "normalized_value": "bolsas - bolsas plasticas - bolsa vikingo"
+  },
+  {
+    "id": "cat-37",
+    "type": "category",
+    "value": "Desechables - De Bamboo",
+    "normalized_value": "desechables - de bamboo"
+  },
+  {
+    "id": "cat-38",
+    "type": "category",
+    "value": "Desechables - De Bamboo - Bowls",
+    "normalized_value": "desechables - de bamboo - bowls"
+  },
+  {
+    "id": "cat-39",
+    "type": "category",
+    "value": "Desechables - De Bamboo - Contenedores",
+    "normalized_value": "desechables - de bamboo - contenedores"
+  },
+  {
+    "id": "cat-40",
+    "type": "category",
+    "value": "Desechables - De Bamboo - Tapas de bamboo",
+    "normalized_value": "desechables - de bamboo - tapas de bamboo"
+  },
+  {
+    "id": "cat-41",
+    "type": "category",
+    "value": "Desechables - De acrilico",
+    "normalized_value": "desechables - de acrilico"
+  },
+  {
+    "id": "cat-42",
+    "type": "category",
+    "value": "Desechables - De acrilico  - Copa Veneciana",
+    "normalized_value": "desechables - de acrilico - copa veneciana"
+  },
+  {
+    "id": "cat-43",
+    "type": "category",
+    "value": "Desechables - De acrilico  - Copa Vino",
+    "normalized_value": "desechables - de acrilico - copa vino"
+  },
+  {
+    "id": "cat-44",
+    "type": "category",
+    "value": "Desechables - De acrilico  - Platos de Cristal",
+    "normalized_value": "desechables - de acrilico - platos de cristal"
+  },
+  {
+    "id": "cat-45",
+    "type": "category",
+    "value": "Desechables - De acrilico  - Vasos de Cristal",
+    "normalized_value": "desechables - de acrilico - vasos de cristal"
+  },
+  {
+    "id": "cat-46",
+    "type": "category",
+    "value": "Desechables - De alumnio",
+    "normalized_value": "desechables - de alumnio"
+  },
+  {
+    "id": "cat-47",
+    "type": "category",
+    "value": "Desechables - De alumnio - Moldes de aluminio",
+    "normalized_value": "desechables - de alumnio - moldes de aluminio"
+  },
+  {
+    "id": "cat-48",
+    "type": "category",
+    "value": "Desechables - De alumnio - Rollos de aluminio",
+    "normalized_value": "desechables - de alumnio - rollos de aluminio"
+  },
+  {
+    "id": "cat-49",
+    "type": "category",
+    "value": "Desechables - De carton / Bio",
+    "normalized_value": "desechables - de carton / bio"
+  },
+  {
+    "id": "cat-50",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Bandejas",
+    "normalized_value": "desechables - de carton / bio - bandejas"
+  },
+  {
+    "id": "cat-51",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Base para helado",
+    "normalized_value": "desechables - de carton / bio - base para helado"
+  },
+  {
+    "id": "cat-52",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Cajas de cartón",
+    "normalized_value": "desechables - de carton / bio - cajas de carton"
+  },
+  {
+    "id": "cat-53",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Cajas para pizza",
+    "normalized_value": "desechables - de carton / bio - cajas para pizza"
+  },
+  {
+    "id": "cat-54",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Platos Bio",
+    "normalized_value": "desechables - de carton / bio - platos bio"
+  },
+  {
+    "id": "cat-55",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Portacomidas Bio",
+    "normalized_value": "desechables - de carton / bio - portacomidas bio"
+  },
+  {
+    "id": "cat-56",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Portas de carton",
+    "normalized_value": "desechables - de carton / bio - portas de carton"
+  },
+  {
+    "id": "cat-57",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Tapas de carton",
+    "normalized_value": "desechables - de carton / bio - tapas de carton"
+  },
+  {
+    "id": "cat-58",
+    "type": "category",
+    "value": "Desechables - De carton / Bio - Vasos de carton",
+    "normalized_value": "desechables - de carton / bio - vasos de carton"
+  },
+  {
+    "id": "cat-59",
+    "type": "category",
+    "value": "Desechables - De icopor",
+    "normalized_value": "desechables - de icopor"
+  },
+  {
+    "id": "cat-60",
+    "type": "category",
+    "value": "Desechables - De icopor - Bandejas espumadas",
+    "normalized_value": "desechables - de icopor - bandejas espumadas"
+  },
+  {
+    "id": "cat-61",
+    "type": "category",
+    "value": "Desechables - De icopor - Bases espumadas",
+    "normalized_value": "desechables - de icopor - bases espumadas"
+  },
+  {
+    "id": "cat-62",
+    "type": "category",
+    "value": "Desechables - De icopor - Contenedores espumados",
+    "normalized_value": "desechables - de icopor - contenedores espumados"
+  },
+  {
+    "id": "cat-63",
+    "type": "category",
+    "value": "Desechables - De icopor - Neveras espumadas",
+    "normalized_value": "desechables - de icopor - neveras espumadas"
+  },
+  {
+    "id": "cat-64",
+    "type": "category",
+    "value": "Desechables - De icopor - Platos espumados",
+    "normalized_value": "desechables - de icopor - platos espumados"
+  },
+  {
+    "id": "cat-65",
+    "type": "category",
+    "value": "Desechables - De icopor - Portacomidas espumados",
+    "normalized_value": "desechables - de icopor - portacomidas espumados"
+  },
+  {
+    "id": "cat-66",
+    "type": "category",
+    "value": "Desechables - De icopor - Vasos espumados",
+    "normalized_value": "desechables - de icopor - vasos espumados"
+  },
+  {
+    "id": "cat-67",
+    "type": "category",
+    "value": "Desechables - De madera",
+    "normalized_value": "desechables - de madera"
+  },
+  {
+    "id": "cat-68",
+    "type": "category",
+    "value": "Desechables - De madera - Cubiertos de madera",
+    "normalized_value": "desechables - de madera - cubiertos de madera"
+  },
+  {
+    "id": "cat-69",
+    "type": "category",
+    "value": "Desechables - De madera - Mezcladores",
+    "normalized_value": "desechables - de madera - mezcladores"
+  },
+  {
+    "id": "cat-70",
+    "type": "category",
+    "value": "Desechables - De madera - Palo de Dientes",
+    "normalized_value": "desechables - de madera - palo de dientes"
+  },
+  {
+    "id": "cat-71",
+    "type": "category",
+    "value": "Desechables - De madera - Palo para hamburguesa",
+    "normalized_value": "desechables - de madera - palo para hamburguesa"
+  },
+  {
+    "id": "cat-72",
+    "type": "category",
+    "value": "Desechables - De madera - Palo para paleta",
+    "normalized_value": "desechables - de madera - palo para paleta"
+  },
+  {
+    "id": "cat-73",
+    "type": "category",
+    "value": "Desechables - De madera - Palo para pincho",
+    "normalized_value": "desechables - de madera - palo para pincho"
+  },
+  {
+    "id": "cat-74",
+    "type": "category",
+    "value": "Desechables - De papel",
+    "normalized_value": "desechables - de papel"
+  },
+  {
+    "id": "cat-75",
+    "type": "category",
+    "value": "Desechables - De papel  - Papel Parafinado",
+    "normalized_value": "desechables - de papel - papel parafinado"
+  },
+  {
+    "id": "cat-76",
+    "type": "category",
+    "value": "Desechables - De papel  - Papel para freidora",
+    "normalized_value": "desechables - de papel - papel para freidora"
+  },
+  {
+    "id": "cat-77",
+    "type": "category",
+    "value": "Desechables - De papel  - Papel sulfito",
+    "normalized_value": "desechables - de papel - papel sulfito"
+  },
+  {
+    "id": "cat-78",
+    "type": "category",
+    "value": "Desechables - De papel  - Pitillos Bio",
+    "normalized_value": "desechables - de papel - pitillos bio"
+  },
+  {
+    "id": "cat-79",
+    "type": "category",
+    "value": "Desechables - De papel  - Servilletas",
+    "normalized_value": "desechables - de papel - servilletas"
+  },
+  {
+    "id": "cat-80",
+    "type": "category",
+    "value": "Desechables - De papel  - Toalla de cocina",
+    "normalized_value": "desechables - de papel - toalla de cocina"
+  },
+  {
+    "id": "cat-81",
+    "type": "category",
+    "value": "Desechables - De papel  - Toallas de mano",
+    "normalized_value": "desechables - de papel - toallas de mano"
+  },
+  {
+    "id": "cat-82",
+    "type": "category",
+    "value": "Desechables - De pet",
+    "normalized_value": "desechables - de pet"
+  },
+  {
+    "id": "cat-83",
+    "type": "category",
+    "value": "Desechables - De pet - Contenedores",
+    "normalized_value": "desechables - de pet - contenedores"
+  },
+  {
+    "id": "cat-84",
+    "type": "category",
+    "value": "Desechables - De pet - CupCakes",
+    "normalized_value": "desechables - de pet - cupcakes"
+  },
+  {
+    "id": "cat-85",
+    "type": "category",
+    "value": "Desechables - De pet - Domos",
+    "normalized_value": "desechables - de pet - domos"
+  },
+  {
+    "id": "cat-86",
+    "type": "category",
+    "value": "Desechables - De pet - Portacomidas pet",
+    "normalized_value": "desechables - de pet - portacomidas pet"
+  },
+  {
+    "id": "cat-87",
+    "type": "category",
+    "value": "Desechables - De pet - Sello Plus",
+    "normalized_value": "desechables - de pet - sello plus"
+  },
+  {
+    "id": "cat-88",
+    "type": "category",
+    "value": "Desechables - De pet - Vasos Pet",
+    "normalized_value": "desechables - de pet - vasos pet"
+  },
+  {
+    "id": "cat-89",
+    "type": "category",
+    "value": "Desechables - De plastico",
+    "normalized_value": "desechables - de plastico"
+  },
+  {
+    "id": "cat-90",
+    "type": "category",
+    "value": "Desechables - De plastico - Bowls de plástico",
+    "normalized_value": "desechables - de plastico - bowls de plastico"
+  },
+  {
+    "id": "cat-91",
+    "type": "category",
+    "value": "Desechables - De plastico - Contenedores",
+    "normalized_value": "desechables - de plastico - contenedores"
+  },
+  {
+    "id": "cat-92",
+    "type": "category",
+    "value": "Desechables - De plastico - Copas plasticas",
+    "normalized_value": "desechables - de plastico - copas plasticas"
+  },
+  {
+    "id": "cat-93",
+    "type": "category",
+    "value": "Desechables - De plastico - Cubiertos plasticos",
+    "normalized_value": "desechables - de plastico - cubiertos plasticos"
+  },
+  {
+    "id": "cat-94",
+    "type": "category",
+    "value": "Desechables - De plastico - Mezcladores",
+    "normalized_value": "desechables - de plastico - mezcladores"
+  },
+  {
+    "id": "cat-95",
+    "type": "category",
+    "value": "Desechables - De plastico - Oxobio",
+    "normalized_value": "desechables - de plastico - oxobio"
+  },
+  {
+    "id": "cat-96",
+    "type": "category",
+    "value": "Desechables - De plastico - Pitillos",
+    "normalized_value": "desechables - de plastico - pitillos"
+  },
+  {
+    "id": "cat-97",
+    "type": "category",
+    "value": "Desechables - De plastico - Separadores de comida",
+    "normalized_value": "desechables - de plastico - separadores de comida"
+  },
+  {
+    "id": "cat-98",
+    "type": "category",
+    "value": "Desechables - De plastico - Tapas plasticas",
+    "normalized_value": "desechables - de plastico - tapas plasticas"
+  },
+  {
+    "id": "cat-99",
+    "type": "category",
+    "value": "Desechables - De plastico - Tarro Salsero",
+    "normalized_value": "desechables - de plastico - tarro salsero"
+  },
+  {
+    "id": "cat-100",
+    "type": "category",
+    "value": "Desechables - De plastico - Vasos Plasticos",
+    "normalized_value": "desechables - de plastico - vasos plasticos"
+  },
+  {
+    "id": "cat-101",
+    "type": "category",
+    "value": "Desechables - De plastico - Vasos Tinteros",
+    "normalized_value": "desechables - de plastico - vasos tinteros"
+  },
+  {
+    "id": "cat-102",
+    "type": "category",
+    "value": "Desechables - De plastico - Vinipel",
+    "normalized_value": "desechables - de plastico - vinipel"
+  },
+  {
+    "id": "cat-103",
+    "type": "category",
+    "value": "Embalaje - Envolver y ajustar",
+    "normalized_value": "embalaje - envolver y ajustar"
+  },
+  {
+    "id": "cat-104",
+    "type": "category",
+    "value": "Embalaje - Envolver y ajustar  - Ata Rapido",
+    "normalized_value": "embalaje - envolver y ajustar - ata rapido"
+  },
+  {
+    "id": "cat-105",
+    "type": "category",
+    "value": "Embalaje - Envolver y ajustar  - Cintas",
+    "normalized_value": "embalaje - envolver y ajustar - cintas"
+  },
+  {
+    "id": "cat-106",
+    "type": "category",
+    "value": "Embalaje - Envolver y ajustar  - Grapas",
+    "normalized_value": "embalaje - envolver y ajustar - grapas"
+  },
+  {
+    "id": "cat-107",
+    "type": "category",
+    "value": "Embalaje - Envolver y ajustar  - Papel Strech",
+    "normalized_value": "embalaje - envolver y ajustar - papel strech"
+  },
+  {
+    "id": "cat-108",
+    "type": "category",
+    "value": "Embalaje - Envolver y ajustar  - Zuncho",
+    "normalized_value": "embalaje - envolver y ajustar - zuncho"
+  },
+  {
+    "id": "cat-109",
+    "type": "category",
+    "value": "Licores - Destilados",
+    "normalized_value": "licores - destilados"
+  },
+  {
+    "id": "cat-110",
+    "type": "category",
+    "value": "Licores - Destilados - Whisky",
+    "normalized_value": "licores - destilados - whisky"
+  },
+  {
+    "id": "cat-111",
+    "type": "category",
+    "value": "Licores - Vinos",
+    "normalized_value": "licores - vinos"
+  },
+  {
+    "id": "cat-112",
+    "type": "category",
+    "value": "Licores - Vinos - Aromaticos",
+    "normalized_value": "licores - vinos - aromaticos"
+  },
+  {
+    "id": "cat-113",
+    "type": "category",
+    "value": "Limpieza - Aseo General",
+    "normalized_value": "limpieza - aseo general"
+  },
+  {
+    "id": "cat-114",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Desengrasantes",
+    "normalized_value": "limpieza - aseo general - desengrasantes"
+  },
+  {
+    "id": "cat-115",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Desinfectantes",
+    "normalized_value": "limpieza - aseo general - desinfectantes"
+  },
+  {
+    "id": "cat-116",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Detergentes para loza",
+    "normalized_value": "limpieza - aseo general - detergentes para loza"
+  },
+  {
+    "id": "cat-117",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Detergentes ropa multiusos",
+    "normalized_value": "limpieza - aseo general - detergentes ropa multiusos"
+  },
+  {
+    "id": "cat-118",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Esponjas",
+    "normalized_value": "limpieza - aseo general - esponjas"
+  },
+  {
+    "id": "cat-119",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Insecticidas",
+    "normalized_value": "limpieza - aseo general - insecticidas"
+  },
+  {
+    "id": "cat-120",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Limpiavidrios",
+    "normalized_value": "limpieza - aseo general - limpiavidrios"
+  },
+  {
+    "id": "cat-121",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Paño absorvente",
+    "normalized_value": "limpieza - aseo general - pano absorvente"
+  },
+  {
+    "id": "cat-122",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Productos para pisos",
+    "normalized_value": "limpieza - aseo general - productos para pisos"
+  },
+  {
+    "id": "cat-123",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Quitamanchas",
+    "normalized_value": "limpieza - aseo general - quitamanchas"
+  },
+  {
+    "id": "cat-124",
+    "type": "category",
+    "value": "Limpieza - Aseo General - Suavizantes",
+    "normalized_value": "limpieza - aseo general - suavizantes"
+  },
+  {
+    "id": "cat-125",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal",
+    "normalized_value": "limpieza - aseo personal"
+  },
+  {
+    "id": "cat-126",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Alcohol Antibacterial",
+    "normalized_value": "limpieza - aseo personal - alcohol antibacterial"
+  },
+  {
+    "id": "cat-127",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Cepillo Dental",
+    "normalized_value": "limpieza - aseo personal - cepillo dental"
+  },
+  {
+    "id": "cat-128",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Crema Dental",
+    "normalized_value": "limpieza - aseo personal - crema dental"
+  },
+  {
+    "id": "cat-129",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Desodorantes",
+    "normalized_value": "limpieza - aseo personal - desodorantes"
+  },
+  {
+    "id": "cat-130",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Enjuague Bucal",
+    "normalized_value": "limpieza - aseo personal - enjuague bucal"
+  },
+  {
+    "id": "cat-131",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Jabones",
+    "normalized_value": "limpieza - aseo personal - jabones"
+  },
+  {
+    "id": "cat-132",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Maquinas de Afeitar",
+    "normalized_value": "limpieza - aseo personal - maquinas de afeitar"
+  },
+  {
+    "id": "cat-133",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Papel Higienico",
+    "normalized_value": "limpieza - aseo personal - papel higienico"
+  },
+  {
+    "id": "cat-134",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Pañitos y Pañales",
+    "normalized_value": "limpieza - aseo personal - panitos y panales"
+  },
+  {
+    "id": "cat-135",
+    "type": "category",
+    "value": "Limpieza - Aseo Personal - Toalla Femeninas",
+    "normalized_value": "limpieza - aseo personal - toalla femeninas"
+  },
+  {
+    "id": "cat-136",
+    "type": "category",
+    "value": "Limpieza - Para manipulacion",
+    "normalized_value": "limpieza - para manipulacion"
+  },
+  {
+    "id": "cat-137",
+    "type": "category",
+    "value": "Limpieza - Para manipulacion  - Gorros",
+    "normalized_value": "limpieza - para manipulacion - gorros"
+  },
+  {
+    "id": "cat-138",
+    "type": "category",
+    "value": "Limpieza - Para manipulacion  - Guantes",
+    "normalized_value": "limpieza - para manipulacion - guantes"
+  },
+  {
+    "id": "cat-139",
+    "type": "category",
+    "value": "Limpieza - Para manipulacion  - Tapa bocas",
+    "normalized_value": "limpieza - para manipulacion - tapa bocas"
+  },
+  {
+    "id": "cat-140",
+    "type": "category",
+    "value": "Mascotas - Alimento Humedo",
+    "normalized_value": "mascotas - alimento humedo"
+  },
+  {
+    "id": "cat-141",
+    "type": "category",
+    "value": "Mascotas - Alimento Humedo - Gatos",
+    "normalized_value": "mascotas - alimento humedo - gatos"
+  },
+  {
+    "id": "cat-142",
+    "type": "category",
+    "value": "Mascotas - Alimento Humedo - Perros",
+    "normalized_value": "mascotas - alimento humedo - perros"
+  },
+  {
+    "id": "cat-143",
+    "type": "category",
+    "value": "Mascotas - Alimento Seco",
+    "normalized_value": "mascotas - alimento seco"
+  },
+  {
+    "id": "cat-144",
+    "type": "category",
+    "value": "Mascotas - Alimento Seco - Perros",
+    "normalized_value": "mascotas - alimento seco - perros"
+  },
+  {
+    "id": "cat-145",
+    "type": "category",
+    "value": "Miscelanea - Bombillo",
+    "normalized_value": "miscelanea - bombillo"
+  },
+  {
+    "id": "cat-146",
+    "type": "category",
+    "value": "Miscelanea - Bombillo - Bombillo Led",
+    "normalized_value": "miscelanea - bombillo - bombillo led"
+  },
+  {
+    "id": "cat-147",
+    "type": "category",
+    "value": "Miscelanea - Encendedores",
+    "normalized_value": "miscelanea - encendedores"
+  },
+  {
+    "id": "cat-148",
+    "type": "category",
+    "value": "Miscelanea - Encendedores - Encendedor Piedra",
+    "normalized_value": "miscelanea - encendedores - encendedor piedra"
+  },
+  {
+    "id": "cat-149",
+    "type": "category",
+    "value": "Miscelanea - Encendedores - Encendedor electronico",
+    "normalized_value": "miscelanea - encendedores - encendedor electronico"
+  },
+  {
+    "id": "cat-150",
+    "type": "category",
+    "value": "Miscelanea - Farmacia / Medicamentos",
+    "normalized_value": "miscelanea - farmacia / medicamentos"
+  },
+  {
+    "id": "cat-151",
+    "type": "category",
+    "value": "Miscelanea - Farmacia / Medicamentos - Efervescente",
+    "normalized_value": "miscelanea - farmacia / medicamentos - efervescente"
+  },
+  {
+    "id": "cat-152",
+    "type": "category",
+    "value": "Miscelanea - Farmacia / Medicamentos - Spray",
+    "normalized_value": "miscelanea - farmacia / medicamentos - spray"
+  },
+  {
+    "id": "cat-153",
+    "type": "category",
+    "value": "Miscelanea - Pilas",
+    "normalized_value": "miscelanea - pilas"
+  },
+  {
+    "id": "cat-154",
+    "type": "category",
+    "value": "Miscelanea - Pilas  - Pila Alcalina",
+    "normalized_value": "miscelanea - pilas - pila alcalina"
+  },
+  {
+    "id": "cat-155",
+    "type": "category",
+    "value": "Miscelanea - Pilas  - Pila Carbon",
+    "normalized_value": "miscelanea - pilas - pila carbon"
+  }
+]

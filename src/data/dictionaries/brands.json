@@ -1,0 +1,470 @@
+[
+  {
+    "id": "brand-0",
+    "type": "brand",
+    "value": "Acme Leon",
+    "normalized_value": "acme leon"
+  },
+  {
+    "id": "brand-1",
+    "type": "brand",
+    "value": "Bambu",
+    "normalized_value": "bambu"
+  },
+  {
+    "id": "brand-2",
+    "type": "brand",
+    "value": "Bambu / Chevere",
+    "normalized_value": "bambu / chevere"
+  },
+  {
+    "id": "brand-3",
+    "type": "brand",
+    "value": "Blony",
+    "normalized_value": "blony"
+  },
+  {
+    "id": "brand-4",
+    "type": "brand",
+    "value": "Caribe",
+    "normalized_value": "caribe"
+  },
+  {
+    "id": "brand-5",
+    "type": "brand",
+    "value": "Chevere",
+    "normalized_value": "chevere"
+  },
+  {
+    "id": "brand-6",
+    "type": "brand",
+    "value": "Clic Medical",
+    "normalized_value": "clic medical"
+  },
+  {
+    "id": "brand-7",
+    "type": "brand",
+    "value": "Coffe",
+    "normalized_value": "coffe"
+  },
+  {
+    "id": "brand-8",
+    "type": "brand",
+    "value": "Coffee",
+    "normalized_value": "coffee"
+  },
+  {
+    "id": "brand-9",
+    "type": "brand",
+    "value": "Darnel",
+    "normalized_value": "darnel"
+  },
+  {
+    "id": "brand-10",
+    "type": "brand",
+    "value": "Deco",
+    "normalized_value": "deco"
+  },
+  {
+    "id": "brand-11",
+    "type": "brand",
+    "value": "Eco",
+    "normalized_value": "eco"
+  },
+  {
+    "id": "brand-12",
+    "type": "brand",
+    "value": "Ecomax",
+    "normalized_value": "ecomax"
+  },
+  {
+    "id": "brand-13",
+    "type": "brand",
+    "value": "Economico",
+    "normalized_value": "economico"
+  },
+  {
+    "id": "brand-14",
+    "type": "brand",
+    "value": "El Rey",
+    "normalized_value": "el rey"
+  },
+  {
+    "id": "brand-15",
+    "type": "brand",
+    "value": "El Sol",
+    "normalized_value": "el sol"
+  },
+  {
+    "id": "brand-16",
+    "type": "brand",
+    "value": "Extra",
+    "normalized_value": "extra"
+  },
+  {
+    "id": "brand-17",
+    "type": "brand",
+    "value": "Fabripor",
+    "normalized_value": "fabripor"
+  },
+  {
+    "id": "brand-18",
+    "type": "brand",
+    "value": "Face Mask",
+    "normalized_value": "face mask"
+  },
+  {
+    "id": "brand-19",
+    "type": "brand",
+    "value": "Familia",
+    "normalized_value": "familia"
+  },
+  {
+    "id": "brand-20",
+    "type": "brand",
+    "value": "Favorita",
+    "normalized_value": "favorita"
+  },
+  {
+    "id": "brand-21",
+    "type": "brand",
+    "value": "Fayco",
+    "normalized_value": "fayco"
+  },
+  {
+    "id": "brand-22",
+    "type": "brand",
+    "value": "Formosa",
+    "normalized_value": "formosa"
+  },
+  {
+    "id": "brand-23",
+    "type": "brand",
+    "value": "Fresh",
+    "normalized_value": "fresh"
+  },
+  {
+    "id": "brand-24",
+    "type": "brand",
+    "value": "Full Fresh",
+    "normalized_value": "full fresh"
+  },
+  {
+    "id": "brand-25",
+    "type": "brand",
+    "value": "Furor",
+    "normalized_value": "furor"
+  },
+  {
+    "id": "brand-26",
+    "type": "brand",
+    "value": "Golazo",
+    "normalized_value": "golazo"
+  },
+  {
+    "id": "brand-27",
+    "type": "brand",
+    "value": "Golden",
+    "normalized_value": "golden"
+  },
+  {
+    "id": "brand-28",
+    "type": "brand",
+    "value": "Goldenwrap",
+    "normalized_value": "goldenwrap"
+  },
+  {
+    "id": "brand-29",
+    "type": "brand",
+    "value": "Gruesa",
+    "normalized_value": "gruesa"
+  },
+  {
+    "id": "brand-30",
+    "type": "brand",
+    "value": "Gutvan",
+    "normalized_value": "gutvan"
+  },
+  {
+    "id": "brand-31",
+    "type": "brand",
+    "value": "House",
+    "normalized_value": "house"
+  },
+  {
+    "id": "brand-32",
+    "type": "brand",
+    "value": "Housel",
+    "normalized_value": "housel"
+  },
+  {
+    "id": "brand-33",
+    "type": "brand",
+    "value": "Icoplastin",
+    "normalized_value": "icoplastin"
+  },
+  {
+    "id": "brand-34",
+    "type": "brand",
+    "value": "Intermedio",
+    "normalized_value": "intermedio"
+  },
+  {
+    "id": "brand-35",
+    "type": "brand",
+    "value": "Las Delicias",
+    "normalized_value": "las delicias"
+  },
+  {
+    "id": "brand-36",
+    "type": "brand",
+    "value": "Lider",
+    "normalized_value": "lider"
+  },
+  {
+    "id": "brand-37",
+    "type": "brand",
+    "value": "Marplast",
+    "normalized_value": "marplast"
+  },
+  {
+    "id": "brand-38",
+    "type": "brand",
+    "value": "Medsonic",
+    "normalized_value": "medsonic"
+  },
+  {
+    "id": "brand-39",
+    "type": "brand",
+    "value": "Mi Chef",
+    "normalized_value": "mi chef"
+  },
+  {
+    "id": "brand-40",
+    "type": "brand",
+    "value": "Mia",
+    "normalized_value": "mia"
+  },
+  {
+    "id": "brand-41",
+    "type": "brand",
+    "value": "Mio",
+    "normalized_value": "mio"
+  },
+  {
+    "id": "brand-42",
+    "type": "brand",
+    "value": "Mp",
+    "normalized_value": "mp"
+  },
+  {
+    "id": "brand-43",
+    "type": "brand",
+    "value": "Nube",
+    "normalized_value": "nube"
+  },
+  {
+    "id": "brand-44",
+    "type": "brand",
+    "value": "Opaca",
+    "normalized_value": "opaca"
+  },
+  {
+    "id": "brand-45",
+    "type": "brand",
+    "value": "Pague 2 Lleve 4",
+    "normalized_value": "pague 2 lleve 4"
+  },
+  {
+    "id": "brand-46",
+    "type": "brand",
+    "value": "Papeles Regionales",
+    "normalized_value": "papeles regionales"
+  },
+  {
+    "id": "brand-47",
+    "type": "brand",
+    "value": "Pedigrre",
+    "normalized_value": "pedigrre"
+  },
+  {
+    "id": "brand-48",
+    "type": "brand",
+    "value": "Pinto",
+    "normalized_value": "pinto"
+  },
+  {
+    "id": "brand-49",
+    "type": "brand",
+    "value": "Pizza",
+    "normalized_value": "pizza"
+  },
+  {
+    "id": "brand-50",
+    "type": "brand",
+    "value": "Plastic Gloves",
+    "normalized_value": "plastic gloves"
+  },
+  {
+    "id": "brand-51",
+    "type": "brand",
+    "value": "Popular",
+    "normalized_value": "popular"
+  },
+  {
+    "id": "brand-52",
+    "type": "brand",
+    "value": "Protexion",
+    "normalized_value": "protexion"
+  },
+  {
+    "id": "brand-53",
+    "type": "brand",
+    "value": "Regional",
+    "normalized_value": "regional"
+  },
+  {
+    "id": "brand-54",
+    "type": "brand",
+    "value": "Rendipel",
+    "normalized_value": "rendipel"
+  },
+  {
+    "id": "brand-55",
+    "type": "brand",
+    "value": "S.M",
+    "normalized_value": "s.m"
+  },
+  {
+    "id": "brand-56",
+    "type": "brand",
+    "value": "Sani Tisu",
+    "normalized_value": "sani tisu"
+  },
+  {
+    "id": "brand-57",
+    "type": "brand",
+    "value": "Scott",
+    "normalized_value": "scott"
+  },
+  {
+    "id": "brand-58",
+    "type": "brand",
+    "value": "Sm",
+    "normalized_value": "sm"
+  },
+  {
+    "id": "brand-59",
+    "type": "brand",
+    "value": "Son Plast",
+    "normalized_value": "son plast"
+  },
+  {
+    "id": "brand-60",
+    "type": "brand",
+    "value": "Star",
+    "normalized_value": "star"
+  },
+  {
+    "id": "brand-61",
+    "type": "brand",
+    "value": "Super Blank",
+    "normalized_value": "super blank"
+  },
+  {
+    "id": "brand-62",
+    "type": "brand",
+    "value": "Superplast",
+    "normalized_value": "superplast"
+  },
+  {
+    "id": "brand-63",
+    "type": "brand",
+    "value": "T&T",
+    "normalized_value": "t&t"
+  },
+  {
+    "id": "brand-64",
+    "type": "brand",
+    "value": "Tami",
+    "normalized_value": "tami"
+  },
+  {
+    "id": "brand-65",
+    "type": "brand",
+    "value": "Td",
+    "normalized_value": "td"
+  },
+  {
+    "id": "brand-66",
+    "type": "brand",
+    "value": "Tisu",
+    "normalized_value": "tisu"
+  },
+  {
+    "id": "brand-67",
+    "type": "brand",
+    "value": "Tork",
+    "normalized_value": "tork"
+  },
+  {
+    "id": "brand-68",
+    "type": "brand",
+    "value": "Tradicional",
+    "normalized_value": "tradicional"
+  },
+  {
+    "id": "brand-69",
+    "type": "brand",
+    "value": "Troformas",
+    "normalized_value": "troformas"
+  },
+  {
+    "id": "brand-70",
+    "type": "brand",
+    "value": "Tu-Go",
+    "normalized_value": "tu-go"
+  },
+  {
+    "id": "brand-71",
+    "type": "brand",
+    "value": "Unibol",
+    "normalized_value": "unibol"
+  },
+  {
+    "id": "brand-72",
+    "type": "brand",
+    "value": "Vacan",
+    "normalized_value": "vacan"
+  },
+  {
+    "id": "brand-73",
+    "type": "brand",
+    "value": "Vasander",
+    "normalized_value": "vasander"
+  },
+  {
+    "id": "brand-74",
+    "type": "brand",
+    "value": "Vasdecol",
+    "normalized_value": "vasdecol"
+  },
+  {
+    "id": "brand-75",
+    "type": "brand",
+    "value": "Vbc",
+    "normalized_value": "vbc"
+  },
+  {
+    "id": "brand-76",
+    "type": "brand",
+    "value": "Wau",
+    "normalized_value": "wau"
+  },
+  {
+    "id": "brand-77",
+    "type": "brand",
+    "value": "Whiskas",
+    "normalized_value": "whiskas"
+  }
+]

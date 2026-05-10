@@ -1,0 +1,62 @@
+[
+  {
+    "id": "C01",
+    "type": "color",
+    "value": "Transparente",
+    "normalized_value": "transparente"
+  },
+  {
+    "id": "C02",
+    "type": "color",
+    "value": "Blanco",
+    "normalized_value": "blanco"
+  },
+  {
+    "id": "C03",
+    "type": "color",
+    "value": "Negro",
+    "normalized_value": "negro"
+  },
+  {
+    "id": "C04",
+    "type": "color",
+    "value": "Kraft",
+    "normalized_value": "kraft"
+  },
+  {
+    "id": "C05",
+    "type": "color",
+    "value": "Natural",
+    "normalized_value": "natural"
+  },
+  {
+    "id": "C06",
+    "type": "color",
+    "value": "Rojo",
+    "normalized_value": "rojo"
+  },
+  {
+    "id": "C07",
+    "type": "color",
+    "value": "Azul",
+    "normalized_value": "azul"
+  },
+  {
+    "id": "C08",
+    "type": "color",
+    "value": "Verde",
+    "normalized_value": "verde"
+  },
+  {
+    "id": "C09",
+    "type": "color",
+    "value": "Amarillo",
+    "normalized_value": "amarillo"
+  },
+  {
+    "id": "C10",
+    "type": "color",
+    "value": "Surtido",
+    "normalized_value": "surtido"
+  }
+]

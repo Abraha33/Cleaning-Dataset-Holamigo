@@ -1,0 +1,62 @@
+[
+  {
+    "id": "M01",
+    "type": "material",
+    "value": "PET",
+    "normalized_value": "pet"
+  },
+  {
+    "id": "M02",
+    "type": "material",
+    "value": "Polipropileno",
+    "normalized_value": "polipropileno"
+  },
+  {
+    "id": "M03",
+    "type": "material",
+    "value": "Icopor",
+    "normalized_value": "icopor"
+  },
+  {
+    "id": "M04",
+    "type": "material",
+    "value": "Cartón",
+    "normalized_value": "carton"
+  },
+  {
+    "id": "M05",
+    "type": "material",
+    "value": "Papel Kraft",
+    "normalized_value": "papel kraft"
+  },
+  {
+    "id": "M06",
+    "type": "material",
+    "value": "Bagazo de Caña",
+    "normalized_value": "bagazo de cana"
+  },
+  {
+    "id": "M07",
+    "type": "material",
+    "value": "PLA",
+    "normalized_value": "pla"
+  },
+  {
+    "id": "M08",
+    "type": "material",
+    "value": "Aluminio",
+    "normalized_value": "aluminio"
+  },
+  {
+    "id": "M09",
+    "type": "material",
+    "value": "Madera",
+    "normalized_value": "madera"
+  },
+  {
+    "id": "M10",
+    "type": "material",
+    "value": "Bambú",
+    "normalized_value": "bambu"
+  }
+]
